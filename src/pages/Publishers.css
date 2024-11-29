@@ -1,0 +1,15 @@
+/* src/pages/Publishers.css */
+.publishers {
+    padding: 50px;
+    background-color: #eaf4ea;
+  }
+  
+  .publishers h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  .publishers p {
+    text-align: center;
+  }
+  

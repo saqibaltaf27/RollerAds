@@ -1,0 +1,15 @@
+/* src/pages/Contact.css */
+.contact {
+    padding: 50px;
+    background-color: #f0f0f0;
+  }
+  
+  .contact h1 {
+    text-align: center;
+    color: #4CAF50;
+  }
+  
+  .contact p {
+    text-align: center;
+  }
+  

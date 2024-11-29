@@ -1,0 +1,5252 @@
+/*! _normalize.css v8.0.1 | MIT License | github.com/necolas/_normalize.css */
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+main {
+    display: block;
+    overflow: hidden
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+img {
+    border-style: none
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+[hidden],
+template {
+    display: none
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://rollerads.com/nunito-sans-v5-latin-300.6c8cccf6.eot);
+    src: local("Nunito Sans Light"), local("NunitoSans-Light"), url(https://rollerads.com/nunito-sans-v5-latin-300.6c8cccf6.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-sans-v5-latin-300.86639f7c.woff2) format("woff2"), url(https://rollerads.com/nunito-sans-v5-latin-300.f37d0e83.woff) format("woff"), url(https://rollerads.com/nunito-sans-v5-latin-300.ccab8860.ttf) format("truetype"), url(https://rollerads.com/nunito-sans-v5-latin-300.cd655b5c.svg#NunitoSans) format("svg")
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://rollerads.com/nunito-sans-v5-latin-regular.31c66da2.eot);
+    src: local("Nunito Sans Regular"), local("NunitoSans-Regular"), url(https://rollerads.com/nunito-sans-v5-latin-regular.31c66da2.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-sans-v5-latin-regular.dd1c1239.woff2) format("woff2"), url(https://rollerads.com/nunito-sans-v5-latin-regular.6ac73612.woff) format("woff"), url(https://rollerads.com/nunito-sans-v5-latin-regular.e589e9f7.ttf) format("truetype"), url(https://rollerads.com/nunito-sans-v5-latin-regular.f315c609.svg#NunitoSans) format("svg")
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://rollerads.com/nunito-sans-v5-latin-600.23abf0a9.eot);
+    src: local("Nunito Sans SemiBold"), local("NunitoSans-SemiBold"), url(https://rollerads.com/nunito-sans-v5-latin-600.23abf0a9.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-sans-v5-latin-600.b7f143b4.woff2) format("woff2"), url(https://rollerads.com/nunito-sans-v5-latin-600.e129e57a.woff) format("woff"), url(https://rollerads.com/nunito-sans-v5-latin-600.1e226eab.ttf) format("truetype"), url(https://rollerads.com/nunito-sans-v5-latin-600.94bc7d0e.svg#NunitoSans) format("svg")
+}
+
+@font-face {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://rollerads.com/nunito-sans-v5-latin-700.a2afdda8.eot);
+    src: local("Nunito Sans Bold"), local("NunitoSans-Bold"), url(https://rollerads.com/nunito-sans-v5-latin-700.a2afdda8.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-sans-v5-latin-700.81fca71c.woff2) format("woff2"), url(https://rollerads.com/nunito-sans-v5-latin-700.8e602767.woff) format("woff"), url(https://rollerads.com/nunito-sans-v5-latin-700.3a656cdd.ttf) format("truetype"), url(https://rollerads.com/nunito-sans-v5-latin-700.1ec6a6e2.svg#NunitoSans) format("svg")
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://rollerads.com/nunito-v12-cyrillic-300.c2d6b72d.eot);
+    src: local("Nunito Light"), local("Nunito-Light"), url(https://rollerads.com/nunito-v12-cyrillic-300.c2d6b72d.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-v12-cyrillic-300.8539e295.woff2) format("woff2"), url(https://rollerads.com/nunito-v12-cyrillic-300.82e2d230.woff) format("woff"), url(https://rollerads.com/nunito-v12-cyrillic-300.3ad3b77d.ttf) format("truetype"), url(https://rollerads.com/nunito-v12-cyrillic-300.f291d8b0.svg#Nunito) format("svg")
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://rollerads.com/nunito-v12-cyrillic-regular.7597c280.eot);
+    src: local("Nunito Regular"), local("Nunito-Regular"), url(https://rollerads.com/nunito-v12-cyrillic-regular.7597c280.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-v12-cyrillic-regular.088e8e31.woff2) format("woff2"), url(https://rollerads.com/nunito-v12-cyrillic-regular.9263b23b.woff) format("woff"), url(https://rollerads.com/nunito-v12-cyrillic-regular.454001a5.ttf) format("truetype"), url(https://rollerads.com/nunito-v12-cyrillic-regular.40bef36a.svg#Nunito) format("svg")
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://rollerads.com/nunito-v12-cyrillic-600.4ab6cff0.eot);
+    src: local("Nunito SemiBold"), local("Nunito-SemiBold"), url(https://rollerads.com/nunito-v12-cyrillic-600.4ab6cff0.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-v12-cyrillic-600.a41900d6.woff2) format("woff2"), url(https://rollerads.com/nunito-v12-cyrillic-600.cd747869.woff) format("woff"), url(https://rollerads.com/nunito-v12-cyrillic-600.7bf43b50.ttf) format("truetype"), url(https://rollerads.com/nunito-v12-cyrillic-600.ee06a8bd.svg#Nunito) format("svg")
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://rollerads.com/nunito-v12-cyrillic-700.f96a627f.eot);
+    src: local("Nunito Bold"), local("Nunito-Bold"), url(https://rollerads.com/nunito-v12-cyrillic-700.f96a627f.eot#iefix) format("embedded-opentype"), url(https://rollerads.com/nunito-v12-cyrillic-700.7da55baf.woff2) format("woff2"), url(https://rollerads.com/nunito-v12-cyrillic-700.2e9d2a22.woff) format("woff"), url(https://rollerads.com/nunito-v12-cyrillic-700.7b6f2f4f.ttf) format("truetype"), url(https://rollerads.com/nunito-v12-cyrillic-700.853e9ce6.svg#Nunito) format("svg")
+}
+
+/*! svgMap | https://github.com/StephanWagner/svgMap | MIT License | Copyright Stephan Wagner | https://stephanwagner.me */
+.svgMap-map-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background: #d9ecff;
+    color: #111
+}
+
+.svgMap-map-wrapper * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none
+}
+
+.svgMap-map-wrapper .svgMap-map-image {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0
+}
+
+.svgMap-map-wrapper .svgMap-map-controls-wrapper {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    border-radius: 2px;
+    -webkit-box-shadow: 0 0 0 2px rgba(0, 0, 0, .1);
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, .1)
+}
+
+.svgMap-map-wrapper .svgMap-map-controls-move,
+.svgMap-map-wrapper .svgMap-map-controls-zoom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 5px;
+    overflow: hidden;
+    background: #fff
+}
+
+.svgMap-map-wrapper .svgMap-map-controls-move:last-child,
+.svgMap-map-wrapper .svgMap-map-controls-zoom:last-child {
+    margin-right: 0
+}
+
+.svgMap-map-wrapper .svgMap-control-button {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: relative
+}
+
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-button:after,
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-button:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #666;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s
+}
+
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-button:before {
+    width: 11px;
+    height: 3px
+}
+
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-button:hover:after,
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-button:hover:before {
+    background: #111
+}
+
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-button.svgMap-disabled:after,
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-button.svgMap-disabled:before {
+    background: #ccc
+}
+
+.svgMap-map-wrapper .svgMap-control-button.svgMap-zoom-in-button:after {
+    width: 3px;
+    height: 11px
+}
+
+.svgMap-map-wrapper .svgMap-country {
+    cursor: pointer;
+    stroke: #fff;
+    stroke-width: 1;
+    stroke-linejoin: round;
+    vector-effect: non-scaling-stroke;
+    -webkit-transition: fill .2s, stroke .2s;
+    transition: fill .2s, stroke .2s
+}
+
+.svgMap-map-wrapper .svgMap-country.svgMap-active,
+.svgMap-map-wrapper .svgMap-country:hover {
+    stroke: #007e0d;
+    stroke-width: 1.4px;
+    -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
+    filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7))
+}
+
+.svgMap-map-wrapper .svgMap-country.svgMap-active {
+    stroke-width: 1.5
+}
+
+.svgMap-tooltip {
+    -webkit-box-shadow: 2px 2px 34px rgba(11, 0, 77, .5);
+    box-shadow: 2px 2px 34px rgba(11, 0, 77, .5);
+    position: absolute;
+    z-index: 10;
+    border-radius: 5px;
+    background: #fff;
+    -webkit-transform: translate(-50%, -100%);
+    transform: translate(-50%, -100%);
+    display: none;
+    pointer-events: none;
+    width: 243px
+}
+
+.svgMap-tooltip.svgMap-tooltip-flipped {
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    border-bottom: 0
+}
+
+.svgMap-tooltip.svgMap-active {
+    display: block
+}
+
+.svgMap-tooltip .svgMap-tooltip-content-container {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.svgMap-tooltip .svgMap-tooltip-content-container .svgMap-tooltip-flag-container {
+    text-align: left;
+    margin: 10px 0 0 10px;
+    width: 69px;
+    height: 48px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content-container .svgMap-tooltip-flag-container.svgMap-tooltip-flag-container-emoji {
+    font-size: 50px;
+    line-height: 0;
+    padding: 25px 0 15px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content-container .svgMap-tooltip-flag-container .svgMap-tooltip-flag {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.svgMap-tooltip .svgMap-tooltip-title {
+    text-align: left;
+    margin: 11px 0 0 10px;
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .01em
+}
+
+.svgMap-tooltip .svgMap-tooltip-content {
+    white-space: nowrap;
+    font-size: 14px;
+    color: #777;
+    margin: -5px 0 0
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table {
+    padding-top: 10px;
+    border-spacing: 0;
+    width: 243px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table td {
+    padding-left: 10px;
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: .01em;
+    color: rgba(0, 0, 0, .6)
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table tr {
+    height: 32px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table tr:last-child,
+.svgMap-tooltip .svgMap-tooltip-content table tr:nth-child(odd) {
+    background: #f8f8f8
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table td span {
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: right;
+    letter-spacing: .01em;
+    color: #000
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table tr td:nth-child(2) {
+    text-align: right;
+    padding-right: 10px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table td:first-child {
+    padding-right: 10px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table td:nth-last-child(-n+2) {
+    border-radius: 0 0 5px 5px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content table td sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -5px
+}
+
+.svgMap-tooltip .svgMap-tooltip-content .svgMap-tooltip-no-data {
+    padding: 10px;
+    color: #777;
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif
+}
+
+.svgMap-tooltip .svgMap-tooltip-pointer {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    overflow: hidden;
+    height: 10px;
+    width: 30px
+}
+
+.svgMap-tooltip .svgMap-tooltip-pointer:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    transform: translateX(-50%) rotate(45deg)
+}
+
+.svgMap-tooltip.svgMap-tooltip-flipped .svgMap-tooltip-pointer {
+    bottom: auto;
+    top: -10px;
+    -webkit-transform: translateX(-50%) scaleY(-1);
+    transform: translateX(-50%) scaleY(-1)
+}
+
+.cta {
+    max-width: 333px;
+    padding: 18px 0;
+    background: linear-gradient(250.71deg, #8bff89, #2bdc72);
+    border-radius: 5px;
+    font-family: Nunito Sans, Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: .05em;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    white-space: nowrap
+}
+
+.cta:hover {
+    background: linear-gradient(263.27deg, #6eff6b 6.27%, #00d254 98.72%)
+}
+
+.cta:active {
+    background: linear-gradient(263.27deg, #00d254 5.85%, #6eff6b 98.72%)
+}
+
+.cta:disabled {
+    background: #dbdbdb
+}
+
+.secondary {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 204px;
+    padding: 17px 54px;
+    border: 1px solid hsla(0, 0%, 100%, .5);
+    border-radius: 5px;
+    font-family: Nunito Sans, Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: #fff;
+    background-color: transparent;
+    outline: none;
+    text-wrap: none
+}
+
+.secondary:hover {
+    background: #fff;
+    color: #2297fc
+}
+
+.secondary:active {
+    background: #fff;
+    color: #1a71bd
+}
+
+.secondary--accent {
+    max-width: 181px
+}
+
+.cta-meeting {
+    width: 247px;
+    height: 57px;
+    background: linear-gradient(251.32deg, #8bff89, #2bdc72);
+    border-radius: 5px;
+    font-family: Nunito Sans, Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-align: center;
+    display: block;
+    margin: 0 auto
+}
+
+.cta-meeting:hover {
+    background: linear-gradient(263.27deg, #6eff6b 6.27%, #00d254 98.72%)
+}
+
+.cta-meeting:active {
+    background: linear-gradient(263.27deg, #00d254 5.85%, #6eff6b 98.72%)
+}
+
+.cta-meeting:disabled {
+    background: #dbdbdb
+}
+
+@media only screen and (min-width:768px) {
+    .cta {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 18px 0;
+        max-width: 254px
+    }
+
+    .cta-meeting {
+        width: 231px;
+        height: 61px
+    }
+
+    .secondary {
+        font-size: 18px;
+        line-height: 25px;
+        padding: 18px 32px;
+        max-width: 185px;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .cta {
+        padding: 22px 50px;
+        max-width: 382px
+    }
+
+    .cta,
+    .secondary {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .secondary {
+        padding: 21px 50px;
+        max-width: 322px;
+        -webkit-transition: .2s;
+        transition: .2s;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box
+    }
+
+    .cta-meeting {
+        width: 204px;
+        height: 54px;
+        font-size: 16px;
+        line-height: 22px;
+        margin-right: 51px
+    }
+}
+
+.card {
+    width: 328px;
+    margin: 0 auto 16px;
+    -webkit-box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+    box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+    border-radius: 6px 6px 8px 8px;
+    padding-bottom: 60px;
+    background-color: #fff
+}
+
+.card .text--green {
+    color: #6cf089
+}
+
+.card:before {
+    content: "";
+    width: 100%;
+    height: 6px;
+    display: block;
+    background: linear-gradient(3.77deg, #32a9ff, #1cd6ff), #fff;
+    border-radius: 8px 8px 0 0
+}
+
+.card__list {
+    margin: 24px 0 0 32px;
+    list-style-image: url(https://rollerads.com/done-point.f7655f8f.svg)
+}
+
+.card__list-item {
+    margin: 6px 0;
+    padding-left: 5px
+}
+
+.card__payment-list {
+    list-style: none;
+    margin-top: -15px;
+    padding-left: 83px;
+    margin-bottom: 9px
+}
+
+.card__payment-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.card__item {
+    max-width: 255px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 30px auto 70px;
+    padding: 0 0 20px;
+    min-height: 150px
+}
+
+.card__item:last-child {
+    margin: 0 auto
+}
+
+.targeting:before {
+    content: "";
+    margin: 54px auto 32px;
+    display: block;
+    background: url(https://rollerads.com/targeting.2a320339.svg) 50% no-repeat;
+    background-size: contain;
+    width: 123px;
+    height: 79.47px
+}
+
+.pricing:before {
+    background: url(https://rollerads.com/pricing.2e9401a6.svg) 50% no-repeat;
+    background-size: contain
+}
+
+.payment:before,
+.pricing:before {
+    content: "";
+    margin: 54px auto 32px;
+    display: block;
+    width: 123px;
+    height: 84.25px
+}
+
+.payment:before {
+    background: url(https://rollerads.com/payment.45b25ad6.svg) 50% no-repeat;
+    background-size: contain
+}
+
+.pricing-type {
+    margin: 0 auto;
+    width: 232px;
+    height: 52px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.pricing-type__item {
+    padding: 10px 16px 10px 18px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #6cf089;
+    background: rgba(108, 240, 137, .3);
+    border-radius: 8px;
+    margin-right: 5px
+}
+
+.pricing-type__item,
+.pricing-type__text {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    line-height: 26px
+}
+
+.pricing-type__text {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 0 0 15px
+}
+
+.pricing-type__tag {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 26px;
+    color: #6cf089;
+    margin-left: 48px;
+    margin-top: 38px;
+    margin-bottom: -5px
+}
+
+.pricing-type__tag--text {
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 6px
+}
+
+.wire:before {
+    background: url(https://rollerads.com/wire.af0326b3.svg) 50% no-repeat;
+    height: 24.75px
+}
+
+.visa:before,
+.wire:before {
+    content: "";
+    display: inline-block;
+    width: 22px
+}
+
+.visa:before {
+    background: url(https://rollerads.com/visa.24b40d68.svg) 50% no-repeat;
+    height: 25px
+}
+
+.capitalist:before {
+    content: "";
+    display: inline-block;
+    background: url(https://rollerads.com/capitalist.5ae2990e.svg) 50% no-repeat;
+    width: 22px;
+    height: 22.5px
+}
+
+.paxum:before {
+    background: url(https://rollerads.com/paxum.28501c1f.svg) 50% no-repeat;
+    width: 24px;
+    height: 8px
+}
+
+.paxum:before,
+.payoneer:before {
+    content: "";
+    display: inline-block
+}
+
+.payoneer:before {
+    background: url(https://rollerads.com/payoneer.796961b1.svg) 50% no-repeat;
+    width: 29px;
+    height: 11px
+}
+
+.paypal:before {
+    content: "";
+    display: inline-block;
+    background: url(https://rollerads.com/paypal.cc857ee3.svg) 50% no-repeat;
+    width: 16px;
+    height: 19px
+}
+
+@media only screen and (min-width:768px) {
+    .card {
+        width: 454px;
+        padding-bottom: 72px;
+        margin-bottom: 31px
+    }
+
+    .card__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin: 38px 0 0 106px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+
+    .card__list-item {
+        min-width: 160px
+    }
+
+    .card__payment-list {
+        margin-top: 26px;
+        padding-left: 157px;
+        margin-bottom: 17px
+    }
+
+    .pricing-type {
+        margin: 40px auto
+    }
+
+    .pricing-type__item {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px
+    }
+
+    .pricing-type__tag {
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 26px;
+        margin-left: 34px
+    }
+
+    .pricing-type__tag--text {
+        font-size: 16px
+    }
+
+    .payment:before,
+    .pricing:before,
+    .targeting:before {
+        width: 140px;
+        height: 96px;
+        margin: 70px auto 39px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .card {
+        width: 350px;
+        margin: 0;
+        padding-bottom: 52px
+    }
+
+    .card__list {
+        margin: 19px 0 0 55px
+    }
+
+    .card__list-item {
+        margin: 3px 0;
+        padding-left: 5px
+    }
+
+    .card__payment-list {
+        margin-top: 30px;
+        padding-left: 92px
+    }
+
+    .card__payment-text {
+        margin: 14px 0
+    }
+
+    .pricing-type {
+        margin: 35px auto 39px
+    }
+
+    .pricing-type__item {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .pricing-type__tag {
+        font-size: 32px;
+        line-height: 26px;
+        margin-left: 60px
+    }
+
+    .pricing-type__tag--text {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    .payment:before,
+    .pricing:before,
+    .targeting:before {
+        width: 96px;
+        height: 64px;
+        margin: 55px auto 31px
+    }
+}
+
+.heading {
+    font-family: Nunito Sans, Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000
+}
+
+.heading--accent {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff
+}
+
+.heading--subsection {
+    font-size: 26px;
+    line-height: 38px
+}
+
+.heading--benefits {
+    font-size: 20px;
+    line-height: 26px
+}
+
+.heading--card {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: .1em
+}
+
+.heading--rates {
+    display: none
+}
+
+.heading--pop-up {
+    font-size: 24px
+}
+
+.heading--hidden {
+    visibility: hidden
+}
+
+@media only screen and (min-width:768px) {
+    .heading {
+        font-size: 44px;
+        line-height: 52px
+    }
+
+    .heading--pop-up {
+        font-size: 24px
+    }
+
+    .heading--subsection {
+        font-size: 30px;
+        line-height: 56px
+    }
+
+    .heading--benefits {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .heading--card {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px
+    }
+
+    .heading--rates {
+        margin-top: 64px;
+        color: #fff
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .heading {
+        font-size: 48px;
+        line-height: 57px
+    }
+
+    .heading--pop-up {
+        font-size: 24px
+    }
+
+    .heading--accent {
+        font-size: 48px;
+        line-height: 57px;
+        text-align: left;
+        width: 534px
+    }
+
+    .heading--benefits {
+        font-size: 18px;
+        line-height: 26px
+    }
+
+    .heading--card {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .heading--rates {
+        display: block
+    }
+}
+
+.text {
+    font-family: Nunito Sans, Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 31px;
+    padding: 0 16px
+}
+
+.text--centered {
+    text-align: center
+}
+
+.text--statistics {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+    color: #2297fc;
+    margin: 0
+}
+
+.text--normal {
+    font-style: normal;
+    font-weight: 300
+}
+
+.text--description {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    margin: -3px 0 0 4px
+}
+
+.text--light {
+    color: #8c8c8c
+}
+
+@media only screen and (min-width:768px) {
+    .text--statistics {
+        font-size: 80px;
+        line-height: 108px;
+        padding: 0 24px
+    }
+
+    .text--description {
+        padding: 0 24px;
+        margin: -7px 4px 0
+    }
+}
+
+.card-brands {
+    --scale: 0.7;
+    margin-bottom: 20px;
+    padding-left: 0
+}
+
+.card-brands li {
+    display: inline-block;
+    margin: 13px 20px 0 0;
+    text-indent: -9000px;
+    height: calc(42px*var(--scale));
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: center
+}
+
+.card-brands .card-visa {
+    width: calc(52px*var(--scale));
+    margin-left: -2px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MiIgaGVpZ2h0PSIyMyI+PHBhdGggZD0iTTIwLjggNUwxOCAxOGgtMy40bDIuOC0xM3ptMTQuMSA4LjRsMS44LTQuOSAxIDQuOXptMy44IDQuNmgzLjFMMzkuMSA1aC0yLjlhMS41IDEuNSAwIDAwLTEuNCAxbC01IDEyaDMuNWwuNy0xLjloNC4zem0tOC44LTQuM2MwLTMuNC00LjctMy42LTQuNy01LjFhMS4zMiAxLjMyIDAgMDExLjQtMS4xIDYuMjggNi4yOCAwIDAxMy4zLjZsLjYtMi44YTguNTMgOC41MyAwIDAwLTMuMS0uNmMtMy4zIDAtNS43IDEuOC01LjcgNC4zIDAgMS45IDEuNyAyLjkgMi45IDMuNXMxLjggMSAxLjcgMS42YzAgLjktMSAxLjMtMiAxLjNhOC41MyA4LjUzIDAgMDEtMy41LS44bC0uNiAyLjhhOS43MSA5LjcxIDAgMDAzLjcuN2MzLjcuMSA2LTEuNyA2LTQuNE0xNiA1bC01LjQgMTNIN0w0LjMgNy42YTEuMzMgMS4zMyAwIDAwLS44LTEuMUExMS42NiAxMS42NiAwIDAwLjIgNS40TC4zIDVINmExLjUxIDEuNTEgMCAwMTEuNSAxLjNsMS40IDcuNUwxMi41IDV6IiBmaWxsPSIjNmI3YzkzIi8+PC9zdmc+)
+}
+
+.card-brands .card-mastercard {
+    width: calc(92px*var(--scale));
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4NCIgaGVpZ2h0PSIyMyI+PHBhdGggZD0iTTM1LjI1IDguOWEyIDIgMCAwMC0xLjguOSAxLjk0IDEuOTQgMCAwMC0xLjctLjkgMS42NiAxLjY2IDAgMDAtMS41LjdWOWgtMS4xdjQuOWgxLjF2LTIuN2ExLjI2IDEuMjYgMCAwMTEuMy0xLjNjLjcgMCAxLjEuNSAxLjEgMS4zdjIuN2gxLjF2LTIuN2ExLjI2IDEuMjYgMCAwMTEuMy0xLjNjLjcgMCAxLjEuNSAxLjEgMS4zdjIuN2gxLjF2LTNhMS44OSAxLjg5IDAgMDAtMi0yem02LjkuOGExLjgxIDEuODEgMCAwMC0xLjUtLjcgMi40MiAyLjQyIDAgMDAtMi40IDIuNiAyLjQ4IDIuNDggMCAwMDIuNCAyLjYgMS44MSAxLjgxIDAgMDAxLjUtLjd2LjRoMS4xVjloLTEuMXptLTEuNCAzLjRhMS41IDEuNSAwIDAxLTEuNS0xLjYgMS41IDEuNSAwIDExMyAwIDEuNSAxLjUgMCAwMS0xLjUgMS42ek00NyAxMWwtLjUtLjFjLS40LS4xLS44LS4yLS44LS41cy4zLS42LjktLjZhMyAzIDAgMDExLjUuNGwuNS0uOGEzLjk0IDMuOTQgMCAwMC0yLS41Yy0xLjIgMC0yIC42LTIgMS42IDAgLjguNiAxLjMgMS42IDEuNGwuNS4xYy42LjEuOC4zLjguNSAwIC40LS40LjYtMS4xLjZhMi4xNyAyLjE3IDAgMDEtMS42LS41bC0uNS44YTMuNzcgMy43NyAwIDAwMi4xLjZjMS40IDAgMi4yLS43IDIuMi0xLjZzLS41NS0xLjItMS42LTEuNHptNS40IDIuMWEuODIuODIgMCAwMS0uOC0uOXYtMi4xaDEuOXYtMWgtMS45VjcuNmgtMS4xdjEuNWgtMXYxaDF2Mi4xYzAgMS4zLjYgMS45IDEuNyAxLjlhMi40NiAyLjQ2IDAgMDAxLjUtLjVsLS40LS45YTEuOCAxLjggMCAwMS0uOTUuNHptNC40LTQuMmEyLjM3IDIuMzcgMCAwMC0yLjQgMi42IDIuMzkgMi4zOSAwIDAwMi41IDIuNiAzLjA2IDMuMDYgMCAwMDItLjdsLS41LS44YTIuMzkgMi4zOSAwIDAxLTEuNC41IDEuMzIgMS4zMiAwIDAxLTEuNC0xLjJoMy42di0uNGEyLjQ4IDIuNDggMCAwMC0yLjQ1LTIuNnptLTEuMyAyLjJhMS4yNCAxLjI0IDAgMDExLjMtMS4ycTEuMDUgMCAxLjIgMS4yem01LjktMS41VjloLTEuMXY0LjloMS4xdi0yLjdhMS4xOCAxLjE4IDAgMDExLjItMS4zIDEuODggMS44OCAwIDAxLjguMmwuMy0xLjFhMiAyIDAgMDAtLjgtLjEgMS41OCAxLjU4IDAgMDAtMS41NS43em01IC4zYTEuODUgMS44NSAwIDAxMS4yLjVsLjctLjdhMi4zNCAyLjM0IDAgMDAtMS44LS44IDIuNTIgMi41MiAwIDAwLTIuNiAyLjYgMi40NyAyLjQ3IDAgMDAyLjYgMi42IDIuMzQgMi4zNCAwIDAwMS44LS44bC0uNy0uN2ExLjY2IDEuNjYgMCAwMS0xLjIuNSAxLjQzIDEuNDMgMCAwMS0xLjQtMS42IDEuNDMgMS40MyAwIDAxMS4zNS0xLjZ6bTYuNC0uMmExLjgxIDEuODEgMCAwMC0xLjUtLjcgMi40MiAyLjQyIDAgMDAtMi40IDIuNiAyLjQ4IDIuNDggMCAwMDIuNCAyLjYgMS44MSAxLjgxIDAgMDAxLjUtLjd2LjRoMS4xVjloLTEuMXptLTEuNCAzLjRhMS41IDEuNSAwIDAxLTEuNS0xLjYgMS41IDEuNSAwIDExMyAwIDEuNSAxLjUgMCAwMS0xLjU1IDEuNnptNS4xLTMuNVY5aC0xLjF2NC45aDEuMXYtMi43YTEuMTggMS4xOCAwIDAxMS4yLTEuMyAxLjg4IDEuODggMCAwMS44LjJsLjMtMS4xYTIgMiAwIDAwLS44LS4xIDEuNTggMS41OCAwIDAwLTEuNTUuN3ptNi40LTN2M2ExLjgxIDEuODEgMCAwMC0xLjUtLjcgMi40MiAyLjQyIDAgMDAtMi40IDIuNiAyLjQ4IDIuNDggMCAwMDIuNCAyLjYgMS44MSAxLjgxIDAgMDAxLjUtLjd2LjVIODRWNi42em0tMS40IDYuNWExLjUgMS41IDAgMDEtMS41LTEuNiAxLjUgMS41IDAgMTEzIDAgMS41IDEuNSAwIDAxLTEuNTUgMS42ek05IDExLjZhNy40OCA3LjQ4IDAgMDEzLTYgNy41IDcuNSAwIDEwMCAxMiA3LjQ1IDcuNDUgMCAwMS0zLTZ6IiBmaWxsPSIjNmI3YzkzIi8+PHBhdGggZD0iTTE2LjUgNC4xQTcuNDcgNy40NyAwIDAwMTIgNS42MWE3LjQ4IDcuNDggMCAwMTAgMTIgNy40MSA3LjQxIDAgMDA0LjUgMS41MSA3LjUgNy41IDAgMDAwLTE1eiIgZmlsbD0iIzZiN2M5MyIgb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMTUgMTEuNmE3LjQ4IDcuNDggMCAwMC0zLTZjLTEuODIgMS40LTQgMy41NS00IDZzMi4xOCA0LjYzIDQgNmE3LjQ1IDcuNDUgMCAwMDMtNnoiIGZpbGw9IiM2YjdjOTMiIG9wYWNpdHk9Ii43NSIvPjwvc3ZnPg==)
+}
+
+.card-brands .card-mastercard-ca {
+    width: calc(52px*var(--scale));
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2OS4xNyIgaGVpZ2h0PSIxNS4wMiI+PHBhdGggZD0iTTkgNy41YTcuNDggNy40OCAwIDAxMy02IDcuNSA3LjUgMCAxMDAgMTIgNy40NSA3LjQ1IDAgMDEtMy02eiIgZmlsbD0iIzZiN2M5MyIvPjxwYXRoIGQ9Ik0xNi41IDBBNy40NyA3LjQ3IDAgMDAxMiAxLjUxYTcuNDggNy40OCAwIDAxMCAxMiA3LjQxIDcuNDEgMCAwMDQuNSAxLjUxIDcuNSA3LjUgMCAwMDAtMTV6IiBzdHlsZT0iaXNvbGF0aW9uOmlzb2xhdGUiIGZpbGw9IiM2YjdjOTMiIG9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTE1IDcuNWE3LjQ4IDcuNDggMCAwMC0zLTZjLTEuODIgMS40LTQgMy41NS00IDZzMi4xOCA0LjYzIDQgNmE3LjQ1IDcuNDUgMCAwMDMtNnoiIHN0eWxlPSJpc29sYXRpb246aXNvbGF0ZSIgZmlsbD0iIzZiN2M5MyIgb3BhY2l0eT0iLjc1Ii8+PHBhdGggZD0iTTM3LjA4IDkuODFWNi42N2ExLjg2IDEuODYgMCAwMC0yLTIgMS45NCAxLjk0IDAgMDAtMS43Ni44OSAxLjg0IDEuODQgMCAwMC0xLjY1LS44OSAxLjY1IDEuNjUgMCAwMC0xLjQ2Ljc0di0uNmgtMS4wNnY1aDEuMVY3LjAzYTEuMTcgMS4xNyAwIDAxMS4yMi0xLjMzYy43MiAwIDEuMDkuNDcgMS4wOSAxLjMyVjkuOGgxLjFWNy4wM2ExLjE4IDEuMTggMCAwMTEuMjItMS4zM2MuNzQgMCAxLjEuNDcgMS4xIDEuMzJWOS44em02LjEzLTIuNXYtMi41aC0xLjA5di42MWExLjkgMS45IDAgMDAtMS41OC0uNzNBMi41IDIuNSAwIDAwMzggNy4zMWEyLjUgMi41IDAgMDAyLjU0IDIuNTkgMS45IDEuOSAwIDAwMS41OC0uNzN2LjYxaDEuMDl6bS00IDBhMS41MSAxLjUxIDAgMTEzIDAgMS41MSAxLjUxIDAgMTEtMyAwem0yNy4yNy0yLjYzYTIuODIgMi44MiAwIDAxMS4wNy4yIDIuNjIgMi42MiAwIDAxLjg1LjU1IDIuNTMgMi41MyAwIDAxLjU2LjgzIDIuNzggMi43OCAwIDAxMCAyLjA5IDIuNTMgMi41MyAwIDAxLS41Ni44MyAyLjYxIDIuNjEgMCAwMS0uODUuNTUgMyAzIDAgMDEtMi4xNSAwIDIuNTkgMi41OSAwIDAxLS44NS0uNTUgMi41NiAyLjU2IDAgMDEtLjU2LS44MyAyLjc4IDIuNzggMCAwMTAtMi4wOSAyLjU2IDIuNTYgMCAwMS41Ni0uODMgMi41OSAyLjU5IDAgMDEuODUtLjUzIDIuODIgMi44MiAwIDAxMS4wOC0uMjJ6bTAgMWExLjYyIDEuNjIgMCAwMC0uNjIuMTIgMS40NyAxLjQ3IDAgMDAtLjUuMzMgMS41MyAxLjUzIDAgMDAtLjMzLjUxIDEuODIgMS44MiAwIDAwMCAxLjMgMS41MyAxLjUzIDAgMDAuMzMuNTEgMS40NyAxLjQ3IDAgMDAuNS4zMyAxLjcgMS43IDAgMDAxLjI0IDAgMS41IDEuNSAwIDAwLjUtLjMzIDEuNTIgMS41MiAwIDAwLjMzLS41MSAxLjgyIDEuODIgMCAwMDAtMS4zIDEuNTIgMS41MiAwIDAwLS4zMy0uNTEgMS41IDEuNSAwIDAwLS41LS4zMyAxLjYyIDEuNjIgMCAwMC0uNjItLjF6bS0xNy4zNSAxLjZhMi40IDIuNCAwIDAwLTIuMzctMi42MiAyLjQ0IDIuNDQgMCAwMC0yLjQ5IDIuNjIgMi40NiAyLjQ2IDAgMDAyLjU1IDIuNjIgMyAzIDAgMDAyLS43bC0uNTMtLjgxYTIuMzggMi4zOCAwIDAxLTEuNDUuNTIgMS4zOSAxLjM5IDAgMDEtMS41LTEuMjJoMy43NmMuMDEtLjEuMDItLjI0LjAyLS4zOHpNNDUuNCA2LjlhMS4yOSAxLjI5IDAgMDExLjMzLTEuMjFBMS4yNCAxLjI0IDAgMDE0OCA2Ljl6bTguNzctMS42NmEzLjc0IDMuNzQgMCAwMC0yLS41MmMtMS4yNyAwLTIuMDguNjEtMi4wOCAxLjYgMCAuODIuNjEgMS4zMiAxLjczIDEuNDdsLjUxLjA3Yy42LjA4Ljg4LjI0Ljg4LjUycy0uNC42MS0xLjE0LjYxYTIuNjYgMi42NiAwIDAxLTEuNjYtLjUybC0uNTEuODVhMy42MSAzLjYxIDAgMDAyLjEuNThjMS40NCAwIDIuMjgtLjY4IDIuMjgtMS42M3MtLjY2LTEuMzQtMS43NS0xLjVMNTIgNi43M2MtLjQ3LS4wNi0uODUtLjE2LS44NS0uNDlzLjM2LS41OSAxLS41OWEzLjIyIDMuMjIgMCAwMTEuNTYuNDN6bTQuNzUtLjRoLTEuNzdWMy4yOWgtMS4xdjEuNTJINTV2MWgxdjIuMjhjMCAxLjE2LjQ1IDEuODUgMS43NCAxLjg1YTIuNTUgMi41NSAwIDAwMS4zNi0uMzlsLS4zMS0uOTNhMiAyIDAgMDEtMSAuMjhjLS41NCAwLS43Mi0uMzMtLjcyLS44NFY1LjhoMS43OHptMy43Ni0uMTNhMS40NyAxLjQ3IDAgMDAtMS4zMi43M3YtLjYzSDYwLjN2NWgxLjA5VjdjMC0uODMuMzYtMS4yOSAxLjA3LTEuMjlhMS43NyAxLjc3IDAgMDEuNjguMTNsLjMzLTFhMi4zMiAyLjMyIDAgMDAtLjc3LS4xNHoiIGZpbGw9IiM2YjdjOTMiLz48L3N2Zz4=)
+}
+
+.card-brands .card-amex {
+    width: calc(69px*var(--scale));
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1OSIgaGVpZ2h0PSIyMyI+PHBhdGggZmlsbD0iIzZiN2M5MyIgZD0iTTU2IDcuMjdMNTMuMTMgM2gtMi4zNXY3aDEuODdWNS41NEw1NS41NyAxMGgyLjI2VjNINTZ2NC4yN3pNNDUuMTIgN2wxLTIuMzVMNDcgN3ptLS4xOS00bC0zLjA3IDdoMi4wNmwuNTgtMS40NGgzLjI2bC42MiAxLjQ0aDIuMTFsLTMuMTctN3ptLTYuMTQgMy41NVY2LjRhMS42MSAxLjYxIDAgMDExLjc3LTEuNzdoMi4xMVYzaC0yLjI1YTMuMjIgMy4yMiAwIDAwLTMuNSAzLjR2LjE1YTMuMTQgMy4xNCAwIDAwMy40IDMuNEg0MWwuNzYtMS41OGgtMS4xYTEuNjIgMS42MiAwIDAxLTEuODItMS44Mk0zNC4wOSAzdjdoMS44N1YzaC0xLjg3em0tMy43NCAzaC0yVjQuNThoMmMuNTggMCAuODYuMzQuODYuNzJzLS4yOC42Ny0uODYuNjdtMi43My0uNzJBMi4yMyAyLjIzIDAgMDAzMC41OSAzaC00djdoMS44N1Y3LjU2aC42N0wzMS4yMSAxMGgyLjM1bC0yLjMtMi41NGEyLjE3IDIuMTcgMCAwMDEuODItMi4yMU0xOS40MiAxMGg1LjlWOC40MmgtNC4wM1Y3LjI3aDMuOTNWNS42OGgtMy45M3YtMS4xaDQuMDNWM2gtNS45djd6bS01Ljk1LTIuNTlMMTEuODkgM0g4Ljk3djdoMS44MlY0Ljk3TDEyLjYxIDEwaDEuNjhsMS44Ny01LjAzVjEwaDEuODJWM2gtMi45MmwtMS41OSA0LjQxek0zLjMxIDdsMS0yLjM1TDUuMjMgN3ptLS4yNC00TDAgMTBoMi4wNmwuNTgtMS40NEg1LjlMNi41MiAxMGgyLjExTDUuNTEgM3ptNTMuNjggMTIuNjRINTVhLjU2LjU2IDAgMTEwLTEuMTFoMy4xMmwuNzQtMS41M0g1NWEyLjIzIDIuMjMgMCAwMC0yLjQ5IDIuMjEgMiAyIDAgMDAyLjI1IDIuMTFoMS43M2EuNTguNTggMCAxMTAgMS4xNWgtMy43MlYyMGgzLjc0QTIuMjEgMi4yMSAwIDAwNTkgMTcuNzVhMiAyIDAgMDAtMi4yNS0yLjExbS02Ljg2IDBoLTEuNzJhLjU2LjU2IDAgMTEwLTEuMTFoMy4xMUw1MiAxM2gtMy44M2EyLjIzIDIuMjMgMCAwMC0yLjUgMi4yMSAyIDIgMCAwMDIuMjYgMi4xMWgxLjcyYS41OC41OCAwIDExMCAxLjE1aC0zLjc0VjIwaDMuNzRhMi4yMSAyLjIxIDAgMDAyLjUtMi4yNSAyIDIgMCAwMC0yLjI2LTIuMTFtLTEwLjkzIDQuMzFoNS45di0xLjU4aC00LjAzdi0xLjE1aDMuOTN2LTEuNThoLTMuOTN2LTEuMTFoNC4wM3YtMS41OGgtNS45djd6bS0zLjY5LTQuMDNoLTJ2LTEuMzloMmMuNTcgMCAuODYuMzQuODYuNzJhLjc3Ljc3IDAgMDEtLjg2LjY3bTIuNzMtLjcxQTIuMjQgMi4yNCAwIDAwMzUuNTEgMTNoLTR2N2gxLjg3di0yLjQ5SDM0TDM2LjEzIDIwaDIuM2wtMi4zLTIuNTRBMi4yMSAyLjIxIDAgMDAzOCAxNS4yMW0tMTAuMDcuODZoLTJ2LTEuNTRoMmEuNzcuNzcgMCAwMS44Ny43Ny44Mi44MiAwIDAxLS44Ny43N20uMTktMy4wN2gtNC4wN3Y3aDEuODd2LTIuM2gyLjE2YTIuMzIgMi4zMiAwIDAwMi41NC0yLjM1IDIuMjggMi4yOCAwIDAwLTIuNS0yLjM1bS00LjQxLS4wNWgtMi4zOWwtMS44MyAyLjExLTEuODItMi4xMWgtMi40NGwzLjA3IDMuNDUtMy4xMiAzLjU1aDIuNGwxLjg3LTIuMiAxLjkxIDIuMmgyLjQ1bC0zLjE3LTMuNTkgMy4wNy0zLjQxem0tMTQuNzIgN2g1Ljl2LTEuNThoLTQuMDN2LTEuMTVoMy45M3YtMS41OGgtMy45M3YtMS4xMWg0LjAzdi0xLjU4aC01Ljl2N3oiLz48L3N2Zz4=)
+}
+
+.card-brands .card-diners {
+    width: calc(37px*var(--scale));
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNyIgaGVpZ2h0PSIyMyI+PHBhdGggZD0iTTE1LjMxIDBoLTQuNkExMS4xNyAxMS4xNyAwIDAwMCAxMS42IDExLjQyIDExLjQyIDAgMDAxMS4yMSAyM2g0LjFBMTEuNzIgMTEuNzIgMCAwMDI3IDExLjZ2LS4xQTExLjYxIDExLjYxIDAgMDAxNS4zMSAwem0tMy44IDIxQTkuNTYgOS41NiAwIDAxMiAxMS41IDkuNTYgOS41NiAwIDAxMTEuNTEgMiA5LjU2IDkuNTYgMCAwMTIxIDExLjVhOS41NiA5LjU2IDAgMDEtOS40OSA5LjV6IiBmaWxsPSIjNmI3YzkzIi8+PHBhdGggZD0iTTEzIDUuMnYxMi43YTYuNTQgNi41NCAwIDAwMC0xMi43ek01LjMxIDkuOWE2LjU3IDYuNTcgMCAwMDQuNyA4VjUuMmE2LjU4IDYuNTggMCAwMC00LjcgNC43eiIgZmlsbD0iIzZiN2M5MyIvPjwvc3ZnPg==)
+}
+
+.card-brands .card-discover {
+    width: calc(65px*var(--scale));
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NSIgaGVpZ2h0PSIyMyI+PHBhdGggZD0iTTMuMiA3LjA1SC43VjE2aDIuNWE0LjQ1IDQuNDUgMCAwMDMuMS0xIDQuNTggNC41OCAwIDAwMS42LTMuNCA0LjM1IDQuMzUgMCAwMC00LjItNC41em0yIDYuN2EzLjE3IDMuMTcgMCAwMS0yLjMuN2gtLjV2LTUuOWguNWEzLjE3IDMuMTcgMCAwMTIuMy43IDMuMSAzLjEgMCAwMS45IDIuMiAzLjE3IDMuMTcgMCAwMS0uOSAyLjN6TTguNiAxNmgxLjdWNy4wNUg4LjZ6bTUuOC01LjVjLTEtLjQtMS4zLS42LTEuMy0xLjFhMS4xMSAxLjExIDAgMDExLjItMSAyLjEgMi4xIDAgMDExLjQuN2wuOS0xLjJhNCA0IDAgMDAtMi41LTEgMi41NiAyLjU2IDAgMDAtMi43IDIuNHYuMWMwIDEuMi41IDEuOSAyLjEgMi40YTYuMTIgNi4xMiAwIDAxMS4yLjUgMS4wNSAxLjA1IDAgMDEuNS45IDEuMzEgMS4zMSAwIDAxLTEuMiAxLjNoLS4xYTIgMiAwIDAxLTEuOC0xLjJMMTEgMTQuMzVhMy40IDMuNCAwIDAwMyAxLjcgMi44MiAyLjgyIDAgMDAzLTIuN3YtLjNjLS4xLTEuMi0uNi0xLjgtMi42LTIuNnptMy4xIDEuMWE0LjU3IDQuNTcgMCAwMDQuNSA0LjYgNS40NSA1LjQ1IDAgMDAyLjItLjV2LTJhMi42MSAyLjYxIDAgMDEtMiAxIDIuODIgMi44MiAwIDAxLTIuOS0yLjh2LS4yYTMgMyAwIDAxMi44LTMuMSAyLjgxIDIuODEgMCAwMTIuMSAxdi0yYTMuODQgMy44NCAwIDAwLTIuMS0uNSA0LjMzIDQuMzMgMCAwMC00LjYgNC40NXptMjAuMyAxLjVsLTIuMy02aC0xLjhsMy43IDkuMWguOUw0MiA3LjA1aC0xLjhsLTIuNCA2em01IDIuOWg0Ljh2LTEuNWgtMy4xdi0yLjRoM3YtMS41aC0zdi0yaDMuMVY3LjA1aC00Ljh6bTExLjUtNi4zYzAtMS43LTEuMS0yLjYtMy4xLTIuNmgtMi41VjE2aDEuN3YtMy42aC4ybDIuMyAzLjZINTVsLTIuNy0zLjdhMi40MyAyLjQzIDAgMDAyLTIuNnptLTMuNCAxLjVoLS41VjguNDVoLjVjMS4xIDAgMS42LjUgMS42IDEuM3MtLjUgMS40LTEuNiAxLjR6IiBmaWxsPSIjNmI3YzkzIi8+PHBhdGggZD0iTTI5LjQgN2E0LjU5IDQuNTkgMCAwMC00LjYgNC42IDQuNzQgNC43NCAwIDAwNC42IDQuNyA0LjYxIDQuNjEgMCAwMDQuNy00LjZBNC43NiA0Ljc2IDAgMDAyOS40IDd6IiBmaWxsPSIjNmI3YzkzIiBvcGFjaXR5PSIuNSIgc3R5bGU9Imlzb2xhdGlvbjppc29sYXRlIi8+PC9zdmc+)
+}
+
+.card-brands .card-jcb {
+    width: calc(36px*var(--scale));
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyMyI+PHBhdGggZD0iTTMuMTYgMkEzLjE0IDMuMTQgMCAwMDAgNS4ydjhhNC45MyA0LjkzIDAgMDAyLjY3LjggMS43MiAxLjcyIDAgMDAxLjY4LTEuNlY4SDd2NC4yYzAgMS42LS44OSAzLTMuNzUgM0ExNy4xIDE3LjEgMCAwMTAgMTQuOFYyMWg0Ljg0QTMuMTQgMy4xNCAwIDAwOCAxNy44VjJ6IiBmaWxsPSIjNmI3YzkzIi8+PHBhdGggZD0iTTEyLjMgMkEzLjI0IDMuMjQgMCAwMDkgNS4yVjljLjgtLjggMi4zLTEuMyA0LjYtMS4yYTE4LjY2IDE4LjY2IDAgMDEyLjUuNHYxLjVhNi44MSA2LjgxIDAgMDAtMi40LS44IDIuNjQgMi42NCAwIDAwLTIuOCAyLjIgMi42NCAyLjY0IDAgMDAyLjIgMi44aC41YTYuMTkgNi4xOSAwIDAwMi40LS44djEuNWExMC44NiAxMC44NiAwIDAxLTIuNS40Yy0yLjMuMS0zLjctLjQtNC41LTEuMnY3aDQuOGEzLjE2IDMuMTYgMCAwMDMuMi0zLjJWMnoiIGZpbGw9IiM2YjdjOTMiIG9wYWNpdHk9Ii43NSIgc3R5bGU9Imlzb2xhdGlvbjppc29sYXRlIi8+PHBhdGggZD0iTTIxLjI0IDJBMy4xOCAzLjE4IDAgMDAxOCA1LjJWOGg1YTEuNzYgMS43NiAwIDAxMS44MiAxLjZ2LjFhMS42NSAxLjY1IDAgMDEtMS41MSAxLjcgMiAyIDAgMDExLjkyIDEuOCAxLjg5IDEuODkgMCAwMS0xLjk2IDEuOEgxOHY2aDQuNzZBMy4xOCAzLjE4IDAgMDAyNiAxNy44VjJ6TTIwIDEzLjloMi4zMmExLjE0IDEuMTQgMCAwMC43MS0xLjMgMS4yIDEuMiAwIDAwLS43MS0uN0gyMHptMi44My00YTEgMSAwIDAwLS43MS0uOUgyMHYxLjhoMi4xMmExIDEgMCAwMC43MS0uOXoiIGZpbGw9IiM2YjdjOTMiIG9wYWNpdHk9Ii41IiBzdHlsZT0iaXNvbGF0aW9uOmlzb2xhdGUiLz48L3N2Zz4=)
+}
+
+.card-brands .card-unionpay {
+    width: calc(41px*var(--scale));
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMSIgaGVpZ2h0PSIyMyI+PHBhdGggZD0iTTcuMjcgMTkuMDhsMy41Mi0xNS4xNkEyLjU5IDIuNTkgMCAwMTEzLjE2IDJINi4yMWEyLjU4IDIuNTggMCAwMC0yLjM3IDEuOTJMLjMxIDE5LjA4QTEuNDggMS40OCAwIDAwMS43OCAyMWg3YTEuNDcgMS40NyAwIDAxLTEuNTEtMS45MnoiIGZpbGw9IiM2YjdjOTMiLz48cGF0aCBkPSJNMTUuNjQgMTkuMDhsMy41My0xNS4xNkEyLjU1IDIuNTUgMCAwMTIxLjUzIDJoLTguMzdhMi41OSAyLjU5IDAgMDAtMi4zNyAxLjkyTDcuMjcgMTkuMDhBMS40NyAxLjQ3IDAgMDA4LjczIDIxaDguMzhhMS40NyAxLjQ3IDAgMDEtMS40Ny0xLjkyeiIgZmlsbD0iIzZiN2M5MyIgb3BhY2l0eT0iLjc1Ii8+PHBhdGggZD0iTTIxLjUzIDJoNy41OGExLjQ3IDEuNDcgMCAwMTEuNDcgMS45MmwtMy41MyAxNS4xNkEyLjU1IDIuNTUgMCAwMTI0LjY5IDIxaC03LjU4YTEuNDcgMS40NyAwIDAxLTEuNDctMS45MmwzLjUzLTE1LjE2QTIuNTUgMi41NSAwIDAxMjEuNTMgMnoiIGZpbGw9IiM2YjdjOTMiIG9wYWNpdHk9Ii41Ii8+PHBhdGggZD0iTTIyLjEgMTYuMjVoLS4yNWwuOTMtMy4wNmguM2wuMS0uMzJ2LjM1YzAgLjIyLjE2LjQxLjYxLjM4aC41MWwuMTgtLjU5aC0uMThjLS4xMiAwLS4xNyAwLS4xNi0uMDl2LS4zNWgtMWExMiAxMiAwIDAwLTEuNDIuMDggMS43MyAxLjczIDAgMDAtLjQ3LjIzbC4xLS4zMmgtLjlsLS4xOS42My0uOTMgMy4xaC0uMTlsLS4xNy41OWgxLjc4bC0uMDYuMTloLjg4bC4wNi0uMTloLjI1em0tMS4xMiAwaC0uNzFsLjIxLS42OGguNzF6bS40LTEuMzJBMi43NCAyLjc0IDAgMDAyMSAxNWEzLjU4IDMuNTggMCAwMC0uNDIuMThsLjI1LS44MWguNzF6bTAtMS4xMkEzLjQ4IDMuNDggMCAwMDIxIDE0bC4yMy0uNzhoLjcybC0uMTcuNTdhMi4xNSAyLjE1IDAgMDAtLjQxLjAyem0xLjMzLjU1aDFsLS4xNC40OGgtMS4wM2wtLjE1LjUyaC45MWwtLjY5IDFhLjI5LjI5IDAgMDEtLjE0LjEyLjM4LjM4IDAgMDEtLjE5LjA1SDIybC0uMTguNThoLjY3YS44MS44MSAwIDAwLjY5LS4zNmwuNDgtLjY1LjEuNjZBLjMxLjMxIDAgMDAyNCAxN2EuOC44IDAgMDAuMjMuMWguNTZsLjE5LS42NWgtLjEzYS42MS42MSAwIDAxLS4yMiAwIC4zNy4zNyAwIDAxMC0uMTRsLS4xLS42NkgyNGwuMTktLjIyaDFsLjE2LS41MmgtMWwuMTUtLjQ4aDFsLjE4LS41OWgtMi44em0tOC43IDJsLjI0LS44aDFsLjE4LS42aC0xbC4xNS0uNDloMWwuMTgtLjU4SDEzLjNsLS4xNy41OGguNTVsLS4xNS40OUgxM2wtLjE4LjYxaC41NUwxMyAxNi42NmMwIC4xNCAwIC4xOS4wNi4yNWEuMjMuMjMgMCAwMC4xNy4xMy44Mi44MiAwIDAwLjI2IDBoMS4xMWwuMi0uNjYtLjUuMDdjLS4wNi4wNC0uMy4wMy0uMy0uMDZ6bS4xMi0zLjgzbC0uMjUuNDVhLjY4LjY4IDAgMDEtLjE1LjE5LjU0LjU0IDAgMDEtLjIyIDBoLS4xM2wtLjE4LjU4aC40NGExIDEgMCAwMC40NC0uMTFjLjA4IDAgLjExIDAgLjE3LS4wOGwuMTUtLjEzaDEuMzVsLjE4LS42aC0xbC4xNy0uMzN6bTIgMy44NHYtLjIxbC4zOS0xLjE2aDEuNzNhLjg3Ljg3IDAgMDAuMzItLjExLjUzLjUzIDAgMDAuMjMtLjIxIDEuNzUgMS43NSAwIDAwLjIzLS41MmwuNDYtMS41NWgtMS4zNmE0LjI0IDQuMjQgMCAwMC0uNjEuMTMgMi40NyAyLjQ3IDAgMDAtLjQ1LjI5bC4xMi0uNDJoLS44NGwtMS4xOSAzLjkyYTEuNjMgMS42MyAwIDAwLS4wNy4zM2MwIC4wNy4wOS4xNC4xNS4xOWEuNDcuNDcgMCAwMC4yNy4wNmgxLjExbC4yLS42Ny0uNTguMDVhLjE0LjE0IDAgMDEtLjEyLS4wOXptLjg3LTMuMTZoMS40bC0uMS4zM2gtLjc3YTEuNTQgMS41NCAwIDAwLS43My4zM3ptLS4yNy45MmgxLjM4bC0uMDkuMjhhLjM5LjM5IDAgMDAtLjE4IDBoLTEuMnptMS4zMiAxLjJhLjE5LjE5IDAgMDEwIC4wOWgtLjM0di0uMzJoLS44MnYxLjY1YS4yNS4yNSAwIDAwLjA5LjI0IDEuNjUgMS42NSAwIDAwLjcyLjA4aC41MWwuMTktLjYyaC0uNmEuMDkuMDkgMCAwMS0uMDYgMHMtLjA1IDAtLjA1LS4xM3YtLjQyaC40N2EuNTkuNTkgMCAwMC40NS0uMTYuNDguNDggMCAwMC4xNS0uMjhsLjA4LS4zN2gtLjY1ek04LjE5IDYuODZhOC45IDguOSAwIDAxLTEuMDggMEw2LjU1IDkuNGExLjc4IDEuNzggMCAwMS0uNDcgMS4wNy44Ni44NiAwIDAxLS41Ni4xOS41Mi41MiAwIDAxLS41OS0uNDl2LS4xMkw1IDkuMzlzLjU2LTIuMjEuNjUtMi41YTcuMzQgNy4zNCAwIDAxLTEuMjggMHYuMTZsLS41NSAyLjQ0di4yMWwtLjEuN2EuOTIuOTIgMCAwMC4xMy41MWMuMjUuNDUgMSAuNTIgMS40LjUyYTIuOCAyLjggMCAwMDEuMzctLjMyIDIgMiAwIDAwLjg4LTEuMzhsLjA2LS4yNHMuNTctMi4zLjY3LTIuNmwtLjA0LS4wM3ptMS45NCAxLjg1YTEuNTMgMS41MyAwIDAwLS42Mi4xNEw5LjI3IDlsLjA4LS4yNnYtLjA1Yy0uNDguMS0uNTkuMTEtMSAuMTdhMTIuNzUgMTIuNzUgMCAwMS0uMzUgMS42Yy0uMDguMy0uMTUuNjEtLjIzLjkyaDFjLjA1LS4yNi4wNS0uMzIuMTctLjg0LjA1LS4yNC4xNi0uNzguMjEtMWEuNjUuNjUgMCAwMS4yOS0uMDljLjIyIDAgLjE5LjE5LjE4LjI3cy0uMDkuNTQtLjE3LjlsLS4wNi4yNGMwIC4xNy0uMDguMzMtLjExLjUxaDEuMDVjLjA3LS40LjA5LS41MS4yMS0xLjA5bC4wNi0uMjdjLjEyLS41Mi4xOC0uNzguMDktMWEuNTIuNTIgMCAwMC0uNTYtLjN6bTIuMTYuNTVsLS41NC4wOS0uNTIuMDhjMCAuMTcgMCAuMzItLjA3LjQ5cy0uMDcuMzgtLjEzLjY3YTMgMyAwIDAxLS4xMS4zOCAzLjYzIDMuNjMgMCAwMC0uMTIuMzhoMS4wNGMwLS4yIDAtLjI1LjA2LS4zNXMuMDYtLjI1LjE0LS42M2MwLS4xOC4wOS0uMzYuMTMtLjU1cy4wOS0uMzYuMTMtLjU0em0xLjMgMi4yYTEuNjEgMS42MSAwIDAwMS4yMi0uNDYgMi4xNiAyLjE2IDAgMDAuNDItLjg5IDEuMTYgMS4xNiAwIDAwLS4xLTEgMS4xNCAxLjE0IDAgMDAtLjkyLS4zMyAxLjY4IDEuNjggMCAwMC0xLjE0LjM5IDEuODIgMS44MiAwIDAwLS41MSAxYy0uMDguMzYtLjE4IDEgLjQyIDEuMjVhMS42NiAxLjY2IDAgMDAuNjEuMDR6bTAtMS4zMmMuMS0uNDQuMjItLjgyLjUyLS44MnMuMjUuMjguMTUuNzNhMi4yMiAyLjIyIDAgMDEtLjIyLjYyLjM3LjM3IDAgMDEtLjI5LjE4cy0uMjIgMC0uMjItLjI4YTEuNzEgMS43MSAwIDAxLjAzLS40M3ptOC41NCAwYy0uMDguMzUtLjE4IDEgLjQxIDEuMjNhMS4xNCAxLjE0IDAgMDAuNTMuMDkuOTIuOTIgMCAwMC41MS0uMjQgMSAxIDAgMDAwIC4xN2gxYy4wNy0uNC4xMy0uNzguMzEtMS41NC4wOC0uMzYuMTctLjcyLjI1LTEuMDgtLjQ3LjA5LS42LjExLTEuMDYuMTd2LjExYS43Mi43MiAwIDAwLS4zMy0uMjggMS4yOSAxLjI5IDAgMDAtMS4wOS40IDEuODYgMS44NiAwIDAwLS41NiAxem0xIDBjLjEtLjQ0LjIyLS44MS41Mi0uODFzLjI5LjE5LjI3LjUxYzAgLjA3IDAgLjEzLS4wNS4yMXMtLjA3LjI3LS4xLjRhMS4xMyAxLjEzIDAgMDEtLjExLjIyLjUyLjUyIDAgMDEtLjM3LjE4cy0uMjIgMC0uMjItLjI4YTEuNjUgMS42NSAwIDAxLjAzLS4zOHptLTYuODEgMS4yNmwuMTYtLjg0Yy4wNi0uMjQuMTctLjc4LjIyLTFhLjY1LjY1IDAgMDEuMy0uMDljLjIyIDAgLjE5LjE5LjE4LjI3cy0uMDkuNTQtLjE3LjlsLS4wNS4yNGMwIC4xNy0uMDkuMzMtLjEyLjUxaDEuMDVjLjA3LS40LjA4LS41MS4yMS0xLjA5bC4wNi0uMjdjLjEyLS41Mi4xOC0uNzguMDktMWEuNTMuNTMgMCAwMC0uNTMtLjMgMS41MyAxLjUzIDAgMDAtLjYyLjE0bC0uMjUuMTMuMDctLjI2di0uMDVjLS40OC4xLS41OS4xMS0xIC4xN2ExNS44NSAxNS44NSAwIDAxLS4yOSAxLjU4Yy0uMDcuMy0uMTUuNjEtLjIyLjkyLjM4LjA0LjUxLjA0LjkxLjA0em0zLjI4IDBjMC0uMTQuMTktLjk1LjItLjk1cy4xNC0uNi4xNS0uNjJhLjM0LjM0IDAgMDEuMDUtLjA3aC4wNmEzLjA4IDMuMDggMCAwMDEuOTQtLjQgMiAyIDAgMDAuNzUtMS4xOCAxLjg2IDEuODYgMCAwMC4wNS0uNDIuODYuODYgMCAwMC0uMTUtLjUyYy0uMjgtLjM5LS44NC0uNC0xLjQ4LS40aC0xLjYxYy0uMTMgMCAwIC4xNyAwIC4xN2wtLjM2IDEuMzYtLjc0IDN6bS41NS0yLjRsLjMxLTEuMzZWNy41aC4xM2wuNjYuMDVhLjU1LjU1IDAgMDEuMjkuNjkgMSAxIDAgMDEtLjUyLjY4IDEuNTYgMS41NiAwIDAxLS43My4xMmgtLjE3em04LjE3LS4yNGMtLjQ3LjA5LS41Ni4xMS0xIC4xNi0uMzIuNzQtLjMxLjU4LS41NyAxLjE3VjEwbC0uMDctMS4yN2E5LjYgOS42IDAgMDEtMSAuMTZWOWE2LjQzIDYuNDMgMCAwMS4xLjY5bC4wOS42N2MwIC4zNy4wNy41Ni4xMiAxLjEzLS4zMS41LS4zOC43LS42NyAxLjE0bC0uMjEuMzJhLjEzLjEzIDAgMDEtLjA4LjA3LjI0LjI0IDAgMDEtLjEzIDBoLS4xMmwtLjE3LjU3aC41OWEuNzMuNzMgMCAwMC42OC0uMzhsLjM3LS42M3YtLjA1Yy4xNy0uNTMgMi4wNy0zLjc4IDIuMDctMy43OHptLTE2LS4yM2EuODQuODQgMCAwMC0uODQuMDljLS4yNi4xNy0uMjkuNDEtLjA3LjU0YS44NC44NCAwIDAwLjg0LS4wOWMuMjItLjE4LjI1LS40My4wNC0uNTV6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
+}
+
+.tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+.tabs,
+.tabs__tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.tabs__tab {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 40px;
+    margin: 4px 6px;
+    width: 100%;
+    max-width: 329px;
+    height: 57px;
+    background: hsla(0, 0%, 100%, .3);
+    border: 1px solid #2297fc;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #2297fc;
+    outline: none
+}
+
+.briefcase:before {
+    content: "";
+    display: inline-block;
+    background: url(https://rollerads.com/briefcase.ef77e5ef.svg) 50% no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px
+}
+
+.tabs__tab--active.briefcase:before {
+    background: url(https://rollerads.com/briefcase_active.2bb313a3.svg) 50% no-repeat;
+    background-size: contain
+}
+
+.targeting-tab:before {
+    content: "";
+    display: inline-block;
+    background: url(https://rollerads.com/targeting_tab.a253d7be.svg) 50% no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px
+}
+
+.tabs__tab--active.targeting-tab:before {
+    background: url(https://rollerads.com/targeting_active.f54d1989.svg) 50% no-repeat;
+    background-size: contain
+}
+
+.library:before {
+    content: "";
+    display: inline-block;
+    background: url(https://rollerads.com/library.efde6059.svg) 50% no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px
+}
+
+.tabs__tab--active.library:before {
+    background: url(https://rollerads.com/library_active.5b38903a.svg) 50% no-repeat;
+    background-size: contain
+}
+
+.tracking:before {
+    content: "";
+    display: block;
+    background: url(https://rollerads.com/tracking.580d6c0d.svg) 50% no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px
+}
+
+.tabs__tab--active.tracking:before {
+    background: url(https://rollerads.com/tracking_active.5a40526a.svg) 50% no-repeat;
+    background-size: contain
+}
+
+.tab-content {
+    display: none
+}
+
+.tab-content--active {
+    display: block
+}
+
+.tab-content--active:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.about__tabs {
+    margin: 65px 0 0;
+    width: 100%
+}
+
+.about__tabs .tabs {
+    white-space: nowrap;
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row
+}
+
+.about__tabs .tabs,
+.about__tabs .tabs__tab {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.about__tabs .tabs__tab {
+    font-size: 13px;
+    padding: 0 20px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #c4c4c4;
+    color: #c4c4c4
+}
+
+.about__tabs .tabs__tab--active {
+    background: none;
+    color: #2297fc;
+    border-bottom: 1px solid #2297fc;
+    -webkit-box-shadow: inset 0 -3px 0 0 #2297fc;
+    box-shadow: inset 0 -3px 0 0 #2297fc
+}
+
+@media only screen and (max-width:767px) {
+    .key-features__tabs .tabs {
+        position: absolute
+    }
+
+    .key-features__tabs .tabs__tab {
+        width: 100%;
+        min-width: 329px;
+        display: none;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+        background-color: #fff;
+        z-index: 3
+    }
+
+    .key-features__tabs .tabs__tab:before {
+        margin-right: 16px
+    }
+
+    .key-features__tabs .tabs__tab--active {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+        order: -1
+    }
+
+    .key-features__tabs .tabs__tab--active:after {
+        content: "";
+        position: absolute;
+        right: 35px;
+        display: block;
+        background: url(https://rollerads.com/chevron.00645ba4.svg) 50% no-repeat;
+        width: 24px;
+        height: 24px
+    }
+
+    .tabs:hover .tabs__tab {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .key-features__tabs .tabs:hover .tabs__tab--active {
+        background: #ededed;
+        border: 1px solid hsla(0, 0%, 100%, .5);
+        color: #fff
+    }
+
+    .key-features__tabs .tabs:hover .tabs__tab--active:after {
+        content: "";
+        display: block;
+        background: url(https://rollerads.com/chevron-down.4ea3c1b9.svg) 50% no-repeat;
+        background-size: contain;
+        width: 24px;
+        height: 24px
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .tabs {
+        width: 100%;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .tabs__tab {
+        padding: 0 51px;
+        max-width: 334px;
+        font-weight: 700;
+        font-size: 18px !important;
+        line-height: 25px;
+        height: 68px;
+        margin-bottom: 12px;
+        border: 1px solid #e5e5e5;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left
+    }
+
+    .tabs__tab:before {
+        margin-right: 12px;
+        width: 32px;
+        height: 32px
+    }
+
+    .tabs__tab--active {
+        background: #2297fc;
+        color: #fff
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .tabs__tab {
+        width: 270px;
+        padding: 0 18px;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left
+    }
+
+    .tabs__tab:before {
+        margin-right: 12px
+    }
+
+    .tab-content--active:not(.about-tab-content) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+}
+
+.cookie {
+    position: fixed;
+    bottom: 0;
+    padding: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    -webkit-box-shadow: 2px -2px 24px rgba(11, 0, 77, .08);
+    box-shadow: 2px -2px 24px rgba(11, 0, 77, .08);
+    z-index: 5
+}
+
+.cookie--accepted {
+    display: none
+}
+
+.cookie__text {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 26px
+}
+
+.cookie__cta {
+    margin-top: 32px;
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    width: auto
+}
+
+@media only screen and (min-width:768px) {
+    .cookie {
+        padding: 24px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+
+    .cookie__text {
+        text-align: left
+    }
+
+    .cookie__cta {
+        margin-top: 0;
+        margin-left: 6px;
+        min-width: 177px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .cookie {
+        padding: 24px calc(50% - 555px)
+    }
+
+    .cookie__cta {
+        margin-left: 24px;
+        min-width: 187px
+    }
+}
+
+.header {
+    height: 64px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: absolute;
+    width: 100%
+}
+
+.header--fixed,
+.header--static {
+    background: linear-gradient(225.82deg, #37d9fc, #0538fb)
+}
+
+.header--fixed {
+    position: fixed;
+    -webkit-box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+    box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+    z-index: 4
+}
+
+.header--hamburger {
+    position: fixed;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #fff;
+    width: 100%
+}
+
+.header__logo {
+    margin-left: 16px;
+    width: 139px;
+    height: 28.67px;
+    background-size: cover;
+    background: url(https://rollerads.com/logo-white.36e12d8a.svg) no-repeat 50%;
+    font-size: 0
+}
+
+.header__logo--hamburger {
+    margin: 17px 16px;
+    background: url(https://rollerads.com/logo-colored.c5f989ca.svg) no-repeat 50%
+}
+
+.header__menu {
+    margin-right: 16px;
+    background: url(https://rollerads.com/hamburger-menu.ddfab2f7.svg) no-repeat 50%;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    border: none;
+    padding: 0;
+    outline: none;
+    font-size: 0
+}
+
+.header__menu--hamburger {
+    margin: 20px 16px;
+    background: url(https://rollerads.com/close.4c7bb398.svg) no-repeat 50%
+}
+
+.header__nav {
+    display: none
+}
+
+.header__nav--hamburger {
+    border-top: 1px solid #e5e5e5;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff
+}
+
+.nav {
+    list-style: none;
+    padding: 34px 0 0;
+    overflow-y: scroll
+}
+
+.nav__link {
+    font-size: 22px;
+    line-height: 56px;
+    text-decoration: none;
+    color: #000
+}
+
+.nav__secondary {
+    margin: 41px 0 15px;
+    min-width: 326px;
+    height: 57px;
+    border: 1px solid #2bdc72;
+    color: #000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0
+}
+
+.nav__secondary:before {
+    content: "";
+    background: url(https://rollerads.com/user.d2219131.svg) no-repeat 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 15px
+}
+
+.nav__cta {
+    min-width: 328px;
+    min-height: 23px
+}
+
+@media only screen and (min-width:768px) {
+    .header {
+        height: 82px;
+        width: 100%
+    }
+
+    .header__logo {
+        width: 160px;
+        height: 33px;
+        background-size: cover;
+        margin-left: 40px
+    }
+
+    .header__menu {
+        width: 42px;
+        height: 42px;
+        margin-right: 35px
+    }
+
+    .header__menu--hamburger {
+        width: 42px;
+        height: 42px;
+        background-size: contain
+    }
+
+    .nav {
+        padding-top: 97px
+    }
+
+    .nav__link {
+        font-size: 32px;
+        line-height: 98px
+    }
+
+    .nav__secondary {
+        min-width: 341px;
+        height: 59px;
+        margin-top: 80px;
+        margin-bottom: 35px
+    }
+
+    .nav__cta {
+        padding: 0;
+        min-width: 343px;
+        height: 61px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .header {
+        height: 82px;
+        width: calc(100% - 170px);
+        max-width: 1110px;
+        padding: 0 calc(50% - 555px)
+    }
+
+    .header__logo {
+        margin: 0;
+        width: 196px;
+        height: 41px;
+        background-size: cover;
+        -webkit-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out
+    }
+
+    .header__logo--fixed {
+        -webkit-transform: scale(.8);
+        transform: scale(.8)
+    }
+
+    .header__menu {
+        display: none
+    }
+
+    .header__nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .nav {
+        overflow: hidden;
+        padding: 0
+    }
+
+    .nav__link {
+        margin-right: 12px
+    }
+
+    .nav__link,
+    .nav__secondary {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #fff
+    }
+
+    .nav__secondary {
+        margin: 0 23px 0 21px;
+        padding: 0;
+        width: auto;
+        height: 100%;
+        min-width: 103px;
+        min-height: 45px;
+        border: none;
+        text-transform: capitalize;
+        -webkit-transition: .2s;
+        transition: .2s
+    }
+
+    .nav__secondary:before {
+        background: url(https://rollerads.com/user_desktop.946ee435.svg) no-repeat 50%;
+        width: 16px;
+        height: 16px;
+        display: inline-block;
+        margin-right: 5px
+    }
+
+    .nav__secondary:hover {
+        background: hsla(0, 0%, 100%, .3);
+        color: #fff
+    }
+
+    .nav__secondary:active {
+        background: #fff;
+        color: #2297fc
+    }
+
+    .nav__secondary:active:before {
+        background: url(https://rollerads.com/user_desktop_active.1a76e74b.svg) no-repeat 50%
+    }
+
+    .nav__cta {
+        background: hsla(0, 0%, 100%, .3);
+        padding: 0 16px;
+        width: calc(100% - 32px);
+        height: 100%;
+        min-width: 69px;
+        min-height: 45px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 31px;
+        text-transform: capitalize;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-transition: .2s;
+        transition: .2s
+    }
+
+    .nav__cta:hover {
+        background: #fff;
+        color: #2297fc
+    }
+
+    .nav__cta:active {
+        background: #fff;
+        color: #1a71bd
+    }
+}
+
+.main-accent {
+    background: url(https://rollerads.com/circles.5765359f.svg) no-repeat 0 10px, url(https://rollerads.com/a_people.52520599.svg) no-repeat center 84.5%, url(https://rollerads.com/accent-background.28e20b25.svg);
+    background-size: auto, auto, contain;
+    padding: 100px 17px 0;
+    text-align: center;
+    min-height: 1003px
+}
+
+.main-accent--promo-ru {
+    background: url(https://rollerads.com/circles.5765359f.svg) no-repeat 0 10px, url(https://rollerads.com/a_people_ru.49850a71.svg) no-repeat center 84.5%, url(https://rollerads.com/accent-background.28e20b25.svg)
+}
+
+.main-accent--publishers {
+    background: url(https://rollerads.com/circles.5765359f.svg) no-repeat 0 10px, url(https://rollerads.com/pub_people.08ec4fa6.svg) no-repeat center 74%, url(https://rollerads.com/accent-background.28e20b25.svg)
+}
+
+.main-accent--blank {
+    background: url(https://rollerads.com/circles.5765359f.svg) no-repeat 0 10px, url(https://rollerads.com/accent-background.28e20b25.svg);
+    background-size: auto, contain
+}
+
+.main-accent__text {
+    font-family: Nunito Sans, Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-top: 32px
+}
+
+.main-accent__cta {
+    margin: 14px 0 0;
+    text-transform: uppercase;
+    width: 100%;
+    max-width: 300px
+}
+
+.main-accent__clickme {
+    display: none
+}
+
+@media only screen and (min-width:768px) {
+    .main-accent {
+        padding: 159px 100px;
+        background: url(https://rollerads.com/a_people_tablet.3cb718e5.svg) no-repeat center 97%, url(https://rollerads.com/circles.5765359f.svg) no-repeat -80px -15%, url(https://rollerads.com/accent-background-tablet.9e84dddd.svg) no-repeat top;
+        background-size: auto, 650px 860px, 100%;
+        min-height: 882px
+    }
+
+    .main-accent--promo-ru {
+        background: url(https://rollerads.com/a_people_tablet_ru.73c2b2a4.svg) no-repeat center 97%, url(https://rollerads.com/circles.5765359f.svg) no-repeat -80px -15%, url(https://rollerads.com/accent-background-tablet.9e84dddd.svg) no-repeat top
+    }
+
+    .main-accent--publishers {
+        background: url(https://rollerads.com/pub_people_tablet.d6953427.svg) no-repeat calc(50% - 37px) 90%, url(https://rollerads.com/circles.5765359f.svg) no-repeat -80px -20%, url(https://rollerads.com/accent-background-tablet.9e84dddd.svg) no-repeat top;
+        background-size: auto, 650px 860px, 100%
+    }
+
+    .main-accent--blank {
+        background: url(https://rollerads.com/circles.5765359f.svg) no-repeat -80px -15%, url(https://rollerads.com/accent-background-tablet.9e84dddd.svg) no-repeat top;
+        background-size: 650px 860px, 100%
+    }
+
+    .main-accent__text {
+        margin-top: 42px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px
+    }
+
+    .main-accent__cta {
+        margin-bottom: 507px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .main-accent {
+        padding: 226px calc(50% - 555px) 0;
+        background: url(https://rollerads.com/circles.5765359f.svg) no-repeat -150px -125%, url(https://rollerads.com/a_people_desktop.f1eba7f5.svg) no-repeat calc(50% + 30px) top, url(https://rollerads.com/accent-background-desktop.3716cac1.svg) no-repeat top;
+        background-size: 938.64px 938.64px, auto, 100%;
+        min-height: 912px;
+        text-align: left
+    }
+
+    .main-accent--promo-ru {
+        background: url(https://rollerads.com/circles.5765359f.svg) no-repeat -150px -125%, url(https://rollerads.com/a_people_desktop_ru.376c5c22.svg) no-repeat calc(50% + 30px) top, url(https://rollerads.com/accent-background-desktop.3716cac1.svg) no-repeat top
+    }
+
+    .main-accent--publishers {
+        background: url(https://rollerads.com/circles.5765359f.svg) no-repeat -150px -125%, url(https://rollerads.com/pub_people_desktop.93ac5d9e.svg) no-repeat calc(50% + 257px) 41%, url(https://rollerads.com/accent-background-desktop.3716cac1.svg) no-repeat top;
+        background-size: 938.64px 938.64px, auto, 100%
+    }
+
+    .main-accent--blank {
+        background: url(https://rollerads.com/circles.5765359f.svg) no-repeat -150px -125%, url(https://rollerads.com/accent-background-desktop.3716cac1.svg) no-repeat top;
+        background-size: 938.64px 938.64px, 100%
+    }
+
+    .main-accent--blank .heading--accent,
+    .main-accent--blank .main-accent__text {
+        display: none
+    }
+
+    .main-accent__text {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: left;
+        width: 543px
+    }
+
+    .main-accent__cta {
+        margin: 32px 0 0;
+        padding: 22px 0
+    }
+
+    .main-accent__clickme {
+        display: block;
+        position: absolute;
+        width: 330px;
+        height: 91px;
+        font-size: 0;
+        top: 335px;
+        left: calc(50% + 95px)
+    }
+}
+
+.about-onclick__laptop {
+    width: 240px;
+    height: 392px;
+    overflow: hidden;
+    display: block;
+    margin: 30px 0 0;
+    position: absolute;
+    right: 0
+}
+
+.about-onclick__phone {
+    margin: 105px 170px 10px 0;
+    display: block;
+    z-index: 2;
+    position: relative
+}
+
+.about-ipp__laptop {
+    position: absolute;
+    display: block;
+    width: 388px;
+    overflow: hidden;
+    right: 0;
+    margin: -25px 0 0;
+    height: 470px
+}
+
+.about-ipp__phone {
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin: 205px 0 -20px;
+    left: -135px
+}
+
+.about-push {
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.about-push .cta {
+    margin: 20px 0 0;
+    padding: 18px;
+    font-size: 18px;
+    position: relative
+}
+
+.about-push__heading {
+    margin: 0;
+    padding: 0 48px
+}
+
+.about-push__laptop {
+    margin-top: 61px;
+    margin-left: -265px;
+    height: 458px;
+    width: 596px;
+    display: block
+}
+
+.about-push__phone {
+    height: 450px;
+    margin-top: -545px;
+    margin-left: -15px;
+    display: block
+}
+
+.about-push__subheading {
+    padding: 30px 16px 0;
+    margin-bottom: 8px
+}
+
+.about-push__text {
+    padding-top: 7px
+}
+
+.about-push__text--centered {
+    margin-top: 2px;
+    text-align: left;
+    width: calc(100% - 32px)
+}
+
+.about-push__icons {
+    width: 200px;
+    height: 48px;
+    margin: 16px auto 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.about-push .tab-content {
+    text-align: center
+}
+
+.push-icon {
+    width: 48px;
+    height: 48px
+}
+
+.push-icon--windows {
+    background: url(https://rollerads.com/windows.0c5da5ae.svg) 100% 100%;
+    background-size: contain
+}
+
+.push-icon--apple {
+    background: url(https://rollerads.com/apple.7de998bb.svg) 100% 100%;
+    background-size: contain
+}
+
+.push-icon--android {
+    background: url(https://rollerads.com/android.a656994c.svg) 100% 100%;
+    background-size: contain
+}
+
+@media only screen and (min-width:768px) {
+    .about__tabs {
+        width: 100%
+    }
+
+    .about-onclick__laptop {
+        position: absolute;
+        right: 0;
+        width: 487px;
+        height: 405.5px;
+        display: block;
+        overflow: hidden;
+        margin: 60px 0 0
+    }
+
+    .about-onclick__phone {
+        margin: 75px 0 60px -400px;
+        display: block
+    }
+
+    .about-ipp__laptop {
+        float: right;
+        display: block;
+        width: 635px;
+        height: 294px;
+        position: relative;
+        margin: 0;
+        overflow: visible
+    }
+
+    .about-ipp__phone {
+        position: relative;
+        margin: -70px 240px 0 -160px;
+        left: auto;
+        display: inline
+    }
+
+    .about-push {
+        padding-bottom: 0
+    }
+
+    .about-push__heading {
+        margin-top: 73px
+    }
+
+    .about-push__laptop {
+        width: 688px;
+        height: 528.54px;
+        margin: 90px auto 0
+    }
+
+    .about-push__phone {
+        margin-top: -630px;
+        margin-left: 233px
+    }
+
+    .about-push__subheading {
+        padding: 112px 16px 0
+    }
+
+    .about-push__text {
+        padding: 21px 52px 0;
+        margin-top: -10px;
+        margin-bottom: 20px;
+        text-align: center
+    }
+
+    .about-push__text--centered {
+        text-align: center
+    }
+
+    .about-push .cta {
+        max-width: 330px;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+
+    .about-push .tab-content {
+        text-align: center
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .about-push {
+        display: block;
+        max-width: 1280px;
+        min-height: 953px;
+        margin: 0 auto;
+        overflow: visible;
+        position: relative
+    }
+
+    .about-push .tab-content {
+        text-align: left
+    }
+
+    .about-push__heading {
+        margin-top: 0
+    }
+
+    .about-push__laptop {
+        width: 1117px;
+        height: 666px;
+        margin-top: 98px;
+        margin-left: -550px;
+        margin-right: 30px;
+        float: left
+    }
+
+    .about-push__phone {
+        width: 919.15px;
+        height: 1076.33px;
+        margin-top: 0;
+        bottom: -410px;
+        margin-left: 1000px;
+        position: absolute
+    }
+
+    .about-push__subheading {
+        font-size: 36px;
+        line-height: 56px;
+        text-align: left;
+        padding-top: 211px
+    }
+
+    .about-push__text {
+        margin-top: -12px;
+        padding-right: 180px;
+        text-align: left
+    }
+
+    .about-push__text--centered {
+        text-align: left
+    }
+
+    .about-push__icons {
+        margin: 25px 0;
+        width: 165px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around
+    }
+
+    .about-push__icons span:hover {
+        border-radius: 100%;
+        -webkit-box-shadow: 0 0 10px #1cd6ff;
+        box-shadow: 0 0 10px #1cd6ff;
+        -webkit-transition: .3s;
+        transition: .3s
+    }
+
+    .about-push .cta {
+        max-width: 382px;
+        padding-left: 50px;
+        padding-right: 50px
+    }
+
+    .about-onclick__laptop {
+        position: absolute;
+        margin: 0 0 0 705px;
+        width: 1117px;
+        height: 718px;
+        right: auto
+    }
+
+    .about-onclick__phone {
+        float: left;
+        position: relative;
+        top: 20px;
+        margin: 0 0 0 -130px
+    }
+
+    .about-onclick__text {
+        padding-right: 605px
+    }
+
+    .about-onclick__subheading {
+        font-size: 36px;
+        line-height: 56px;
+        text-align: left;
+        padding-top: 140px
+    }
+
+    .about-ipp__laptop {
+        float: left;
+        margin: 0 -390px 0 0;
+        width: 1145px;
+        height: 874px
+    }
+
+    .about-ipp__phone {
+        position: absolute;
+        left: -146px;
+        top: 656px;
+        margin: 0
+    }
+
+    .about-ipp__text {
+        padding-right: 60px
+    }
+
+    .about-ipp__subheading {
+        font-size: 36px;
+        line-height: 56px;
+        text-align: left;
+        padding-top: 120px
+    }
+
+    .push-icon {
+        width: 36px;
+        height: 36px
+    }
+}
+
+.benefits {
+    margin-top: 60px;
+    padding: 117px 16px 0;
+    background: url(https://rollerads.com/benefits-background.e01a2de9.svg) no-repeat;
+    background-size: 100% auto
+}
+
+.benefits__heading {
+    line-height: 44px
+}
+
+.benefits__list {
+    padding: 0 16px;
+    list-style: none
+}
+
+.benefits__item {
+    margin: 54px 0
+}
+
+.benefits__text {
+    margin-bottom: 20px
+}
+
+.benefits__subheading {
+    color: #8c8c8c;
+    margin-top: 20px
+}
+
+.ctr:before {
+    background: url(https://rollerads.com/ctr.5263e6fd.svg) no-repeat;
+    background-size: contain;
+    width: 123.85px;
+    height: 81.56px
+}
+
+.ctr:before,
+.reach:before {
+    content: "";
+    display: block;
+    margin: 35px auto
+}
+
+.reach:before {
+    background: url(https://rollerads.com/reach.beb5fe8d.svg) no-repeat;
+    background-size: contain;
+    width: 122.69px;
+    height: 81.4px
+}
+
+.simple:before {
+    background: url(https://rollerads.com/simple.16579791.svg) no-repeat;
+    background-size: contain;
+    width: 123.85px;
+    height: 81.56px
+}
+
+.instant:before,
+.simple:before {
+    content: "";
+    display: block;
+    margin: 35px auto
+}
+
+.instant:before {
+    background: url(https://rollerads.com/instant.57e31530.svg) no-repeat;
+    background-size: contain;
+    width: 126px;
+    height: 84.27px
+}
+
+.real:before {
+    background: url(https://rollerads.com/real.0088af85.svg) no-repeat;
+    background-size: contain;
+    width: 126px;
+    height: 84.27px
+}
+
+.low:before,
+.real:before {
+    content: "";
+    display: block;
+    margin: 35px auto
+}
+
+.low:before {
+    background: url(https://rollerads.com/low.a3601557.svg) no-repeat;
+    background-size: contain;
+    width: 125.98px;
+    height: 81.77px
+}
+
+@media only screen and (min-width:768px) {
+    .benefits {
+        margin-top: 35px;
+        background: url(https://rollerads.com/benefits-background-tablet.de98f398.svg) no-repeat;
+        background-size: 100%;
+        padding: 165px 16px 0
+    }
+
+    .benefits__list {
+        margin: 53px auto 13px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        max-width: 800px
+    }
+
+    .benefits__item {
+        margin: 0;
+        padding: 15px 25px 7px;
+        display: block;
+        width: 299px
+    }
+
+    .benefits__item:hover {
+        -webkit-box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+        box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+        border-radius: 6px 6px 8px 8px;
+        -webkit-transition: .3s;
+        transition: .3s
+    }
+
+    .benefits__text {
+        text-align: left;
+        padding: 0
+    }
+
+    .heading--benefits {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 23px
+    }
+
+    .ctr:before,
+    .instant:before,
+    .low:before,
+    .reach:before,
+    .real:before,
+    .simple:before {
+        display: block;
+        width: 92px;
+        height: 62px;
+        margin: 0 16px 0 0
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .benefits {
+        padding-top: 0;
+        margin-top: 40px;
+        background: none
+    }
+
+    .benefits__heading {
+        font-size: 36px;
+        line-height: 56px;
+        margin-bottom: 0
+    }
+
+    .benefits__list {
+        position: relative;
+        z-index: 2;
+        max-width: 1110px;
+        margin: 48px auto 13px
+    }
+
+    .benefits__item {
+        margin-bottom: 17px;
+        padding: 15px 25px 7px;
+        width: 299px
+    }
+}
+
+.statistics {
+    margin-top: 30px;
+    background: url(https://rollerads.com/benefits-background.e01a2de9.svg) no-repeat;
+    background-size: 100% auto
+}
+
+.statistics__header {
+    display: none
+}
+
+.statistics__list {
+    padding-top: 70px;
+    background: url(https://rollerads.com/circle.bd0d02de.svg) 121% 43% no-repeat;
+    list-style-image: url(https://rollerads.com/list-dot.fb2837a5.svg);
+    padding-left: 60px;
+    margin: 0 auto;
+    width: 280px
+}
+
+.statistics__item {
+    margin: 70px 0
+}
+
+.statistics__item--pushed {
+    margin-left: 38px
+}
+
+.statistics__cards {
+    padding-top: 29px
+}
+
+@media only screen and (min-width:768px) {
+    .statistics {
+        margin-top: -10px;
+        padding-top: 0;
+        background: url(https://rollerads.com/benefits-background-tablet.de98f398.svg) no-repeat, url(https://rollerads.com/stats_background_numbers.73e00ea4.svg) 123% 9% no-repeat, url(https://rollerads.com/circle-light-tablet.84157d64.svg) calc(50% + 450px) 620px no-repeat, url(https://rollerads.com/circle-dark-tablet.37ce9b1c.svg) calc(50% - 400px) 1930px no-repeat;
+        background-size: contain, 670px 823px, 1317px 1317px, 571px 571px
+    }
+
+    .statistics__list {
+        padding-top: 160px;
+        width: 582px;
+        background: url(https://rollerads.com/circle-tablet.7656a059.svg) 134.9% 41% no-repeat
+    }
+
+    .statistics__item {
+        margin: 75px 0 79px
+    }
+
+    .statistics__item--pushed {
+        margin-left: 38px
+    }
+
+    .statistics__cards {
+        padding-top: 89px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .statistics {
+        background: none;
+        padding-top: 108px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .statistics,
+    .statistics__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .statistics__list {
+        background: url(https://rollerads.com/chart-desktop.929e21f0.svg) center 32px no-repeat;
+        width: 100%;
+        list-style: none;
+        padding: 0;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+        max-width: 1280px
+    }
+
+    .statistics__item {
+        margin-top: 61px;
+        margin-left: 20px
+    }
+
+    .statistics__item:first-child {
+        margin-top: 229px;
+        margin-left: 70px
+    }
+
+    .statistics__item:nth-child(2) {
+        margin-top: 179px;
+        margin-left: 50px
+    }
+
+    .statistics__item:nth-child(3) {
+        margin-top: 104px;
+        margin-left: 10px
+    }
+
+    .statistics__cards {
+        margin: 0 auto;
+        width: 1110px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding-top: 80px;
+        opacity: 0;
+        -webkit-transform: translateY(400px);
+        transform: translateY(400px);
+        -webkit-transition: .6s ease-out;
+        transition: .6s ease-out;
+        -webkit-transition-property: transorm opacity;
+        transition-property: transorm opacity
+    }
+
+    .statistics__cards--visible {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+}
+
+.key-features {
+    padding: 51px 0 35px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.key-features__heading {
+    padding: 0 32px 3px
+}
+
+.key-features__description {
+    margin: 0;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center
+}
+
+.key-features__tabs {
+    margin: 46px 0 35px;
+    width: 100%;
+    max-width: 329px;
+    height: 60px
+}
+
+.key-features__img img {
+    width: 328px;
+    height: 192px;
+    -webkit-box-shadow: 6px 6px 32px rgba(21, 58, 89, .12);
+    box-shadow: 6px 6px 32px rgba(21, 58, 89, .12);
+    display: block;
+    margin: 0 auto
+}
+
+.key-features__list {
+    list-style-image: url(https://rollerads.com/list-dot.fb2837a5.svg);
+    padding-left: 63px;
+    padding-top: 41px
+}
+
+.key-features__list--text {
+    padding-top: 15px
+}
+
+.key-features__paragraph {
+    padding-top: 41px
+}
+
+.key-features__item {
+    margin-bottom: 16px
+}
+
+.key-features__text {
+    position: relative;
+    top: -15px;
+    left: 6px
+}
+
+@media only screen and (min-width:768px) {
+    .key-features {
+        margin-top: 85px
+    }
+
+    .key-features__heading {
+        font-size: 30px;
+        line-height: 48px;
+        margin-bottom: 35px
+    }
+
+    .key-features__description {
+        font-size: 20px;
+        line-height: 33px
+    }
+
+    .key-features__tabs {
+        margin: 57px 0 35px;
+        width: 100%;
+        max-width: 700px;
+        height: 152px
+    }
+
+    .key-features__img img {
+        margin-top: 35px;
+        width: 688px;
+        height: 402px
+    }
+
+    .key-features__list {
+        margin: 25px auto 0;
+        width: 400px;
+        padding-left: 56px
+    }
+
+    .key-features__item {
+        margin-bottom: 24px
+    }
+
+    .key-features__paragraph {
+        width: 454px;
+        margin: 0 auto
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .key-features {
+        margin-top: 95px
+    }
+
+    .key-features__heading {
+        font-size: 48px;
+        line-height: 57px
+    }
+
+    .key-features__description {
+        margin-top: 5px;
+        max-width: 620px;
+        font-size: 36px;
+        line-height: 59px
+    }
+
+    .key-features__tabs {
+        max-width: 1113px;
+        height: auto;
+        margin-bottom: 17px
+    }
+
+    .key-features__img img {
+        width: 634px;
+        height: 370px;
+        float: left
+    }
+
+    .key-features__list {
+        width: 380px;
+        margin-left: 17px;
+        margin-top: 0
+    }
+
+    .key-features__item {
+        margin-bottom: 46px
+    }
+
+    .key-features__item--densed {
+        margin-bottom: 0
+    }
+
+    .key-features__paragraph {
+        width: 380px
+    }
+}
+
+.events {
+    padding: 57px 0 62px;
+    background: #fafafa
+}
+
+.events__description {
+    padding: 0 24px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 31px
+}
+
+.meeting__heading {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding: 0 24px
+}
+
+.meeting__list {
+    margin-top: 23px;
+    margin-bottom: 25px;
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 31px
+}
+
+.meeting__item {
+    margin-bottom: 6px
+}
+
+.meeting__date:before {
+    background: url(https://rollerads.com/date.4ddcade5.svg);
+    width: 16px
+}
+
+.meeting__date:before,
+.meeting__place:before {
+    content: "";
+    height: 18px;
+    display: inline-block;
+    position: relative;
+    margin-right: 9px;
+    top: 3px
+}
+
+.meeting__place:before {
+    background: url(https://rollerads.com/place.d189e103.svg);
+    width: 15px
+}
+
+.event_asw:before {
+    background: url(https://rollerads.com/event_esif.91b2756f.png) no-repeat;
+    background-size: contain;
+    width: 122px;
+    height: 44px
+}
+
+.event_asw:before,
+.event_mac:before {
+    content: "";
+    display: block;
+    margin: 54px auto 32px
+}
+
+.event_mac:before {
+    background: url(https://rollerads.com/event_ags.245c26b6.png) no-repeat 50% 0;
+    width: 222px;
+    height: 56px
+}
+
+.event_awe:before {
+    background: url(https://rollerads.com/event_was.053a6d5a.png) no-repeat;
+    width: 123px;
+    height: 40px
+}
+
+.event_awe:before,
+.event_awg:before {
+    content: "";
+    display: block;
+    margin: 54px auto 32px
+}
+
+.event_awg:before {
+    background: url(https://rollerads.com/event_asw.1b94990a.svg) no-repeat;
+    width: 84px;
+    height: 51px
+}
+
+.event_sigma:before {
+    content: "";
+    display: block;
+    background: url(https://rollerads.com/event_sigma.20029ea2.png) no-repeat;
+    background-size: cover;
+    width: 222px;
+    height: 46px;
+    margin: 54px auto 32px
+}
+
+@media only screen and (min-width:768px) {
+    .events {
+        padding-top: 91px;
+        padding-bottom: 90px;
+        background: none
+    }
+
+    .events__description {
+        padding: 0 24px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+        font-size: 20px;
+        line-height: 33px
+    }
+
+    .meeting__heading {
+        font-size: 22px;
+        line-height: 26px
+    }
+
+    .meeting__list {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        padding: 18px 57px 9px
+    }
+
+    .event_asw:before {
+        width: 200px;
+        height: 70px;
+        margin: 78px auto 40px
+    }
+
+    .event_mac:before {
+        width: 268px;
+        height: 64px
+    }
+
+    .event_awe:before,
+    .event_mac:before {
+        margin: 78px auto 40px;
+        background-size: contain
+    }
+
+    .event_awe:before {
+        width: 112px;
+        height: 26px
+    }
+
+    .event_awg:before {
+        margin: 80px auto 40px;
+        width: 144px;
+        height: 88px;
+        background-size: contain
+    }
+
+    .event_sigma:before {
+        margin: 78px auto 40px;
+        width: 268px;
+        height: 56px;
+        background-size: contain
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .events {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .events__heading {
+        font-size: 36px;
+        line-height: 56px;
+        margin-bottom: 0
+    }
+
+    .events__description {
+        margin-top: 16px;
+        font-size: 18px;
+        line-height: 34px;
+        margin-bottom: 80px
+    }
+
+    .meeting {
+        width: 1110px;
+        height: 132px;
+        padding: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-transition: .3s;
+        transition: .3s
+    }
+
+    .meeting:hover {
+        -webkit-box-shadow: 2px 2px 24px rgba(11, 0, 77, .15);
+        box-shadow: 2px 2px 24px rgba(11, 0, 77, .15)
+    }
+
+    .meeting:before {
+        display: none
+    }
+
+    .meeting__heading {
+        width: 470px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 400
+    }
+
+    .meeting__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding: 10px 0 0;
+        width: 300px;
+        margin-left: 10px
+    }
+
+    .meeting__date:before {
+        height: 12px
+    }
+
+    .meeting__date:before,
+    .meeting__place:before {
+        width: 11px;
+        background-size: contain;
+        margin-right: 11px;
+        top: 0
+    }
+
+    .meeting__place:before {
+        height: 13px
+    }
+
+    .event_asw:before {
+        margin: 0 42px 0 18px;
+        width: 122px;
+        height: 44px
+    }
+
+    .event_mac:before {
+        margin: 0 42px 0 18px;
+        width: 112px;
+        height: 56px
+    }
+
+    .event_awe:before {
+        margin: 0 42px 0 18px;
+        width: 114px;
+        height: 35px
+    }
+
+    .event_awg:before {
+        margin: 0 90px 0 18px;
+        width: 72px;
+        height: 44px
+    }
+
+    .event_sigma:before {
+        margin: 0 40px 0 18px;
+        width: 122px;
+        height: 26px
+    }
+}
+
+.signup {
+    background: linear-gradient(250.85deg, #37d9fc 5.42%, #0538fb);
+    padding-top: 59px;
+    padding-bottom: 78px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.signup__heading {
+    font-size: 26px;
+    line-height: 38px;
+    color: #fff;
+    padding: 0 24px
+}
+
+.signup__text {
+    padding: 11px 24px;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color: #fff
+}
+
+.signup__cta {
+    margin: 4px auto 16px;
+    min-width: 315px
+}
+
+@media only screen and (min-width:768px) {
+    .signup {
+        padding: 96px 48px 105px;
+        background: url(https://rollerads.com/signup_background_tablet.faae498a.svg) no-repeat 50%, linear-gradient(250.85deg, #37d9fc 5.42%, #0538fb);
+        background-size: 100%;
+        display: block
+    }
+
+    .signup__heading {
+        font-size: 30px;
+        line-height: 48px;
+        width: 472px;
+        margin: 24px auto
+    }
+
+    .signup__text {
+        font-size: 20px;
+        line-height: 33px;
+        width: 544px;
+        margin: 26px auto 47px
+    }
+
+    .signup__cta {
+        min-width: 275px
+    }
+
+    .signup__secondary {
+        width: 185px;
+        margin-left: 30px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .signup {
+        padding: 140px 0;
+        height: 271px;
+        background: url(https://rollerads.com/signup_background_desktop.230f5b95.svg) no-repeat 50%, linear-gradient(250.85deg, #37d9fc 5.42%, #0538fb)
+    }
+
+    .signup__heading {
+        font-size: 36px;
+        line-height: 56px;
+        width: 1000px;
+        margin: 0 auto
+    }
+
+    .signup__text {
+        font-size: 18px;
+        line-height: 34px;
+        width: 589px;
+        margin: 7px auto 40px
+    }
+
+    .signup__cta {
+        margin-right: 22px;
+        min-width: 260px;
+        max-width: 260px
+    }
+
+    .signup__secondary {
+        width: 224px
+    }
+}
+
+.footer__logo:before {
+    content: "";
+    display: block;
+    background: url(https://rollerads.com/logo-colored.c5f989ca.svg) 50% no-repeat;
+    width: 100px;
+    height: 20.63px;
+    margin: 60px auto 23px
+}
+
+.footer__form {
+    padding: 28px 0 40px;
+    background: #fafafa
+}
+
+.footer__form-heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px
+}
+
+.footer__nav {
+    font-weight: 700;
+    padding: 17px 16px
+}
+
+.footer__contacts,
+.footer__nav {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 41px;
+    letter-spacing: .05em;
+    color: #000
+}
+
+.footer__contacts {
+    padding: 0 16px;
+    font-weight: 400
+}
+
+.form__label {
+    font-size: 0
+}
+
+.form__input {
+    outline: none;
+    width: 100%;
+    max-width: 328px;
+    height: 57px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: transparent;
+    display: block;
+    margin: 0 auto 17px;
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    padding-left: 20px
+}
+
+.form__input::-webkit-input-placeholder {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8c8c8c
+}
+
+.form__input::-moz-placeholder {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8c8c8c
+}
+
+.form__input:-ms-input-placeholder {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8c8c8c
+}
+
+.form__input::-ms-input-placeholder {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8c8c8c
+}
+
+.form__input::placeholder {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #8c8c8c
+}
+
+.form__submit {
+    width: 100%;
+    max-width: 328px;
+    height: 57px;
+    border-radius: 5px;
+    border: none;
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    background: linear-gradient(251.32deg, #8bff89, #2bdc72)
+}
+
+.form__submit:hover {
+    background: linear-gradient(263.27deg, #6eff6b 6.27%, #00d254 98.72%)
+}
+
+.form__submit:active {
+    background: linear-gradient(263.27deg, #00d254 5.85%, #6eff6b 98.72%)
+}
+
+.form__submit:before {
+    content: "";
+    display: block;
+    background: url(https://rollerads.com/send.76084704.svg) 50% no-repeat;
+    width: 25px;
+    height: 24px;
+    margin-right: 12px
+}
+
+.form__submit:disabled {
+    background: #dbdbdb
+}
+
+.two-columns {
+    margin-bottom: 36px
+}
+
+.nav__heading {
+    font-size: 16px;
+    line-height: 41px
+}
+
+.nav__list {
+    margin-top: -10px;
+    padding-left: 0;
+    list-style: none
+}
+
+.nav__item {
+    display: block;
+    margin-bottom: 6px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #000
+}
+
+.nav__item--hidden {
+    display: none
+}
+
+.contacts__heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 41px
+}
+
+.contacts__mail {
+    color: #2297fc;
+    text-decoration: none;
+    margin-top: 5px;
+    display: block
+}
+
+.meet__heading {
+    margin: 6px 0 18px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 41px
+}
+
+.meet__list {
+    margin-top: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10%;
+    -ms-flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 203px
+}
+
+.meet__social {
+    width: 49px;
+    height: 49px;
+    display: block;
+    font-size: 0
+}
+
+.facebook {
+    background: url(https://rollerads.com/facebook.19a05e11.svg) 50% no-repeat
+}
+
+.instagram {
+    background: url(https://rollerads.com/instagram.852eb436.svg) 50% no-repeat
+}
+
+.linkedin {
+    background: url(https://rollerads.com/linkedin.ca97a201.svg) 50% no-repeat
+}
+
+.telegram {
+    background: url(https://rollerads.com/Telegram.dc32d13f.svg) 50% no-repeat
+}
+
+.twitter {
+    background: url(https://rollerads.com/twitter.43396a18.svg) 50% no-repeat
+}
+
+.payment__heading {
+    margin: 0;
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 41px
+}
+
+.card-brands {
+    margin: 0
+}
+
+.copyrights {
+    padding: 7px 0;
+    background: linear-gradient(239.05deg, #37d9fc, #0538fb)
+}
+
+.copyrights__list {
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none
+}
+
+.copyrights__link {
+    text-decoration: none
+}
+
+.copyrights__link,
+.copyrights__text {
+    font-family: Nunito Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff
+}
+
+.copyrights__text {
+    text-align: center;
+    opacity: .6
+}
+
+@media only screen and (min-width:768px) {
+    .footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .footer__logo {
+        width: 571px;
+        margin: 0 auto;
+        text-align: center
+    }
+
+    .footer__logo:before {
+        width: 160px;
+        height: 33px;
+        margin-bottom: 42px
+    }
+
+    .footer__form {
+        margin-top: 58px;
+        padding: 40px 0;
+        background: #fafafa;
+        width: 100%
+    }
+
+    .footer__nav {
+        float: left;
+        margin: 29px 158px 0 23px
+    }
+
+    .footer__contacts {
+        width: 307px;
+        margin-top: 61px;
+        padding-left: 0
+    }
+
+    .one-column {
+        width: 100%
+    }
+
+    .form,
+    .two-columns {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex
+    }
+
+    .form {
+        width: 567px;
+        margin: 36px auto 20px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .form__input {
+        display: inline-block;
+        background: #fff;
+        width: 336px;
+        margin: 0;
+        padding-left: 32px
+    }
+
+    .form__submit {
+        width: 210px
+    }
+
+    .two-columns {
+        width: 768px;
+        margin-bottom: 36px
+    }
+
+    .meet {
+        margin-top: 50px
+    }
+
+    .meet__heading {
+        margin-bottom: 15px
+    }
+
+    .payment__heading {
+        margin-top: 50px
+    }
+
+    .copyrights {
+        height: 93px;
+        width: 100%
+    }
+
+    .copyrights__list {
+        padding: 0 31px;
+        min-width: 380px;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch
+    }
+
+    .footer__logo {
+        text-align: left;
+        padding-left: 4px;
+        width: 337px
+    }
+
+    .footer__logo:before {
+        margin: 61px 0 25px
+    }
+
+    .footer__form {
+        background: none;
+        margin: 0;
+        padding: 5px 0 0 4px
+    }
+
+    .footer__form-heading {
+        text-align: left;
+        font-size: 18px;
+        line-height: 34px;
+        margin-bottom: 19px
+    }
+
+    .footer__nav {
+        float: left;
+        margin: 29px 85px 0 0;
+        padding-left: 5px
+    }
+
+    .one-column {
+        width: 350px;
+        height: 100%;
+        margin-right: 130px
+    }
+
+    .two-columns {
+        width: 640px;
+        margin-bottom: 50px
+    }
+
+    .form {
+        margin: 0;
+        width: 100%
+    }
+
+    .form__input {
+        width: 258px;
+        height: 45px;
+        padding-left: 22px;
+        font-size: 16px;
+        line-height: 31px
+    }
+
+    .form__input::-webkit-input-placeholder {
+        font-size: 16px;
+        line-height: 31px
+    }
+
+    .form__input::-moz-placeholder {
+        font-size: 16px;
+        line-height: 31px
+    }
+
+    .form__input:-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 31px
+    }
+
+    .form__input::-ms-input-placeholder {
+        font-size: 16px;
+        line-height: 31px
+    }
+
+    .form__input::placeholder {
+        font-size: 16px;
+        line-height: 31px
+    }
+
+    .form__submit {
+        font-size: 0;
+        width: 80px;
+        height: 45px
+    }
+
+    .form__submit:before {
+        margin-right: 0
+    }
+
+    .meet {
+        margin-top: 33px
+    }
+
+    .meet__list {
+        width: 152px
+    }
+
+    .meet__social {
+        width: 36px;
+        height: 36px;
+        background-size: contain
+    }
+
+    .copyrights {
+        padding: 0 calc(50% - 555px);
+        height: 87px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center
+    }
+
+    .copyrights__link {
+        margin-right: 40px
+    }
+
+    .copyrights__link,
+    .copyrights__text {
+        font-size: 16px;
+        line-height: 31px
+    }
+
+    .copyrights__list {
+        padding: 0
+    }
+}
+
+:target:before {
+    content: "";
+    display: block;
+    height: 140px;
+    margin: -60px 0 0
+}
+
+.legal {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    margin: 0 auto
+}
+
+.legal__heading {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    text-align: center
+}
+
+.legal__list {
+    margin: 72px 0 70px;
+    padding-left: 24px;
+    font-weight: 700
+}
+
+.legal__list-item {
+    line-height: 37px;
+    color: #000
+}
+
+.legal__article {
+    padding-top: 20px
+}
+
+.legal__subheading {
+    font-size: 16px;
+    line-height: 31px;
+    letter-spacing: .1em;
+    margin: 0 0 5px
+}
+
+.legal__text {
+    margin: 0 0 6px;
+    padding: 0
+}
+
+.legal__text--accent {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px
+}
+
+@media only screen and (min-width:768px) {
+    .legal {
+        padding: 160px 40px 80px
+    }
+
+    .legal__heading {
+        font-size: 44px;
+        line-height: 52px
+    }
+
+    .legal__list {
+        margin: 63px 0 70px;
+        padding-left: 24px;
+        font-weight: 700
+    }
+
+    .legal__article {
+        padding-top: 20px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .legal {
+        max-width: 920px;
+        padding: 190px 0 140px
+    }
+
+    .legal__heading {
+        font-size: 48px;
+        line-height: 56px
+    }
+
+    .legal__list {
+        margin: 70px 0 33px;
+        padding-left: 24px;
+        font-weight: 700
+    }
+
+    .legal__text--accent {
+        font-size: 16px;
+        line-height: 30px
+    }
+
+    .legal__article {
+        padding-top: 35px
+    }
+}
+
+#svgMap {
+    display: none
+}
+
+.map {
+    padding: 0 32px 100px;
+    margin-top: -835px
+}
+
+.map-data__search input,
+.map-data__search select {
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    border: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 10px;
+    background-color: #fff;
+    outline: none;
+    max-width: 917px
+}
+
+.map-data__search select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='darkgray' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 97%;
+    background-position-y: 50%;
+    background-size: 30px 30px
+}
+
+.sortby {
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    display: block;
+    margin: 23px 0 6px 4px
+}
+
+.prices-accent .main-accent__text {
+    margin-top: 134px
+}
+
+.center-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    top: -120px
+}
+
+.tabs-rates {
+    border: 1px solid #fff;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 58px 0 0
+}
+
+.tabs-rates,
+.tabs-rates__tab {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.tabs-rates__tab {
+    font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+    height: 50px;
+    background: none;
+    min-width: 104px;
+    padding: 0 10px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 2px 0 0;
+    border-radius: 5px;
+    border: none;
+    white-space: nowrap
+}
+
+.tabs-rates__tab:last-child {
+    margin: 0
+}
+
+.tabs-rates__tab:hover {
+    background: hsla(0, 0%, 100%, .2)
+}
+
+.tabs-rates__tab--active,
+.tabs-rates__tab--active:hover {
+    background: #fff;
+    color: #2297fc
+}
+
+@media only screen and (max-width:767px) {
+
+    .map-data,
+    .map-data tr,
+    .map-data tr td {
+        display: block
+    }
+
+    .map-data {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin: 46px auto 0
+    }
+
+    .map-data thead {
+        display: none
+    }
+
+    .map-data tr {
+        padding: 10px 10px 4px;
+        background: #f8f8f8;
+        border-radius: 5px;
+        margin-bottom: 6px
+    }
+
+    .map-data td {
+        width: 100%;
+        font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+        font-style: normal;
+        text-align: right;
+        letter-spacing: .01em;
+        color: #000;
+        margin: 5px 0;
+        position: relative
+    }
+
+    .map-data td,
+    .map-data td:first-child {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px
+    }
+
+    .map-data td:first-child {
+        min-width: 296px;
+        text-align: left;
+        margin-bottom: 9px
+    }
+
+    .map-data td:nth-child(2) {
+        display: none
+    }
+
+    .map-data td:nth-child(3):before {
+        content: "Impressions"
+    }
+
+    .map-data td:nth-child(3):before,
+    .map-data td:nth-child(4):before {
+        position: absolute;
+        left: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: .01em;
+        color: rgba(0, 0, 0, .6)
+    }
+
+    .map-data td:nth-child(4):before {
+        content: "Clicks"
+    }
+
+    .map-data td:nth-child(5):before {
+        content: "CPC, $";
+        position: absolute;
+        left: 0;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        letter-spacing: .01em;
+        color: rgba(0, 0, 0, .6)
+    }
+
+    .map-data .nothing-found td:nth-child(3),
+    .map-data .nothing-found td:nth-child(4),
+    .map-data .nothing-found td:nth-child(5) {
+        content: "";
+        display: none
+    }
+}
+
+@media only screen and (min-width:768px) {
+    .tabs-rates__tab {
+        font-size: 18px;
+        padding: 0 20px;
+        min-width: 145px
+    }
+
+    .center-block {
+        top: -130px
+    }
+
+    .map-data__search select,
+    .sortby {
+        display: none
+    }
+
+    .prices-accent .main-accent__text {
+        margin-top: 134px
+    }
+
+    .map {
+        padding: 0 20px;
+        margin-top: -855px
+    }
+
+    .map-data tr,
+    .map-data tr td {
+        display: table-row
+    }
+
+    .map-data tr td {
+        display: table-cell;
+        text-align: left
+    }
+
+    .map-data {
+        width: 100%;
+        max-width: 917px;
+        margin: 25px auto 200px;
+        background: #fff;
+        -webkit-box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+        box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+        border-radius: 7px;
+        border-collapse: collapse;
+        display: table;
+        font-family: Nunito Sans, -apple-system, BlinkMacSystemFont, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px
+    }
+
+    .map-data,
+    .map-data thead th {
+        letter-spacing: .01em;
+        color: #000
+    }
+
+    .map-data thead th {
+        height: 50px;
+        padding-left: 32px;
+        text-align: left;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .map-data thead th span {
+        border-bottom: 1px dashed #000;
+        cursor: pointer
+    }
+
+    .map-data tbody td {
+        height: 64px;
+        padding-left: 32px;
+        max-width: 120px
+    }
+
+    .map-data tbody tr:nth-child(odd) {
+        background: #f8f8f8
+    }
+
+    .map-data tbody td:nth-child(-n+2) {
+        font-weight: 700
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .center-block {
+        top: 0
+    }
+
+    #svgMap,
+    .map {
+        display: block
+    }
+
+    .map {
+        width: 1110px;
+        margin: -1060px auto 0
+    }
+
+    .map .svgMap-map-wrapper {
+        background: rgba(0, 0, 0, .08);
+        height: 480px;
+        border-radius: 5px
+    }
+
+    .map-data {
+        margin-top: 45px
+    }
+}
+
+.team {
+    padding-top: 105px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.team__heading {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 56px;
+    margin-bottom: 10px
+}
+
+.team__text {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center
+}
+
+.team__list {
+    margin-top: 50px;
+    padding-left: 0;
+    list-style: none;
+    width: 100%
+}
+
+.profile,
+.team__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.profile {
+    margin-bottom: 55px
+}
+
+.profile__name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    margin-top: 9px;
+    margin-bottom: 7px
+}
+
+.profile__position {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 31px
+}
+
+@media only screen and (min-width:768px) {
+    .team {
+        padding-top: 167px
+    }
+
+    .team__heading {
+        font-size: 36px;
+        line-height: 41px;
+        margin-bottom: 6px
+    }
+
+    .team__text {
+        font-size: 26px;
+        line-height: 41px
+    }
+
+    .team__list {
+        margin: 135px auto 16px;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding: 0 18px;
+        max-width: 700px
+    }
+
+    .profile {
+        min-width: 190px
+    }
+
+    .profile__position {
+        margin-top: 13px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .team {
+        padding-top: 190px
+    }
+
+    .team__heading {
+        font-size: 48px;
+        line-height: 56px;
+        margin-bottom: 10px;
+        max-width: 868px
+    }
+
+    .team__text {
+        font-size: 36px;
+        line-height: 56px
+    }
+
+    .team__list {
+        margin: 120px auto 0;
+        max-width: 880px
+    }
+}
+
+.no-focus {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    left: 0;
+    top: 0;
+    z-index: 6;
+    overflow-y: scroll
+}
+
+.no-focus--hidden {
+    display: none
+}
+
+.sales-form {
+    padding: 0 22px
+}
+
+.sales-form--pop-up {
+    padding: 0
+}
+
+.sales-form__heading {
+    margin-top: -15px;
+    margin-bottom: 48px;
+    line-height: 41px
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 768px;
+    padding-bottom: 36px;
+    margin-bottom: 45px;
+    position: relative
+}
+
+.contact-form--first {
+    margin-top: 45px
+}
+
+.contact-form__close {
+    position: absolute;
+    top: 42px;
+    right: 17px;
+    background: url(https://rollerads.com/close.4c7bb398.svg) no-repeat 50%;
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+    border: none;
+    padding: 0;
+    outline: none;
+    font-size: 0
+}
+
+.contact-form__close--white {
+    background: url(https://rollerads.com/close-white.db7c575a.svg) no-repeat 50%;
+    width: 36px;
+    height: 36px;
+    background-size: cover
+}
+
+.contact-form--pop-up {
+    margin-bottom: 0
+}
+
+.contact-form__text {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 30px;
+    margin-bottom: 12px
+}
+
+.contact-form__radio {
+    margin: 23px 0 0
+}
+
+.contact-form__fields {
+    margin-top: 13px;
+    padding: 0 17px
+}
+
+.contact-form__fields--pop-up {
+    margin-top: 0
+}
+
+.contact-form__set {
+    margin: 0
+}
+
+.contact-form__label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8c8c8c;
+    -webkit-transition: .2s;
+    transition: .2s;
+    padding: 0
+}
+
+.contact-form__label--hidden {
+    opacity: 0
+}
+
+.contact-form__label--invalid {
+    color: #ec5050
+}
+
+.contact-form__input {
+    margin: 1px 0 11px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 7px 22px;
+    width: 100%;
+    height: 45px;
+    outline: none;
+    font-family: Nunito Sans, Nunito, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.contact-form__input--select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.contact-form__input__textarea {
+    height: 164px;
+    resize: vertical;
+    padding-top: 13px;
+    margin-bottom: 36px
+}
+
+.contact-form__input::-webkit-input-placeholder {
+    color: #8c8c8c
+}
+
+.contact-form__input::-moz-placeholder {
+    color: #8c8c8c
+}
+
+.contact-form__input:-ms-input-placeholder {
+    color: #8c8c8c
+}
+
+.contact-form__input::-ms-input-placeholder {
+    color: #8c8c8c
+}
+
+.contact-form__input::placeholder {
+    color: #8c8c8c
+}
+
+.contact-form__input:focus {
+    border: 1px solid #2297fc
+}
+
+.contact-form__input--invalid {
+    border: 1px solid #ec5050
+}
+
+.contact-form__submit {
+    width: 103px;
+    border: none;
+    margin: 35px auto 0;
+    display: block;
+    padding: 16px 28px;
+    font-size: 16px;
+    line-height: 22px;
+    outline: none
+}
+
+.contact-form__submit--success {
+    width: 240px
+}
+
+.contact-form__submit--error {
+    background: #ec5050;
+    width: 115px
+}
+
+.contact-form__submit--error:active,
+.contact-form__submit--error:hover {
+    background: #ec5050
+}
+
+[type=radio]:checked,
+[type=radio]:not(:checked) {
+    position: absolute;
+    left: -9999px
+}
+
+[type=radio]:checked+label,
+[type=radio]:not(:checked)+label {
+    position: relative;
+    padding-left: 46px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+    margin-bottom: 0
+}
+
+[type=radio]:checked+label:before,
+[type=radio]:not(:checked)+label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #2297fc;
+    border-radius: 100%;
+    background: #fff;
+    margin-left: 17px
+}
+
+[type=radio]:checked+label:after,
+[type=radio]:not(:checked)+label:after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: #2297fc;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    margin-left: 17px
+}
+
+[type=radio]:not(:checked)+label:after {
+    opacity: 0
+}
+
+[type=radio]:checked+label:after {
+    opacity: 1
+}
+
+.g-recaptcha {
+    display: block;
+    margin: -22px auto 0;
+    width: 304px
+}
+
+@media only screen and (min-width:768px) {
+    .no-focus {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center
+    }
+
+    .no-focus--hidden {
+        display: none
+    }
+
+    .sales-form__heading {
+        font-size: 26px;
+        line-height: 43px;
+        margin-top: 62px;
+        margin-bottom: 71px
+    }
+
+    .sales-form--pop-up {
+        overflow: scroll
+    }
+
+    .contact-form {
+        max-width: 704px;
+        width: 704px;
+        padding-bottom: 51px;
+        margin-bottom: 33px
+    }
+
+    .contact-form--first {
+        margin-top: 80px
+    }
+
+    .contact-form__close {
+        top: 45px
+    }
+
+    .contact-form__close--white {
+        top: -50px;
+        right: calc(50% - 380px)
+    }
+
+    .contact-form__text {
+        margin-top: 65px;
+        margin-left: 6px;
+        margin-bottom: 12px
+    }
+
+    .contact-form__radio {
+        margin-top: 10px;
+        margin-left: 5px
+    }
+
+    .contact-form__fields {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 12px;
+        padding: 0 23px
+    }
+
+    .contact-form__input {
+        width: 300px;
+        margin: 0 0 14px
+    }
+
+    .contact-form__input--full-width,
+    .contact-form__input__textarea {
+        width: 660px
+    }
+
+    .g-recaptcha {
+        margin: 31px auto 50px
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .sales-form {
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 50px
+    }
+
+    .sales-form__heading {
+        font-size: 36px;
+        line-height: 56px;
+        margin-top: 48px
+    }
+
+    .sales-form--pop-up {
+        padding: 0;
+        border: none
+    }
+
+    .contact-form {
+        max-width: 850px;
+        width: 850px;
+        margin: 0 auto 80px
+    }
+
+    .contact-form--first {
+        margin-top: 120px
+    }
+
+    .contact-form__close {
+        right: 90px
+    }
+
+    .contact-form__close--white {
+        top: -50px;
+        right: calc(50% - 480px)
+    }
+
+    .contact-form__text {
+        margin-left: 79px
+    }
+
+    .contact-form__radio {
+        margin-top: 5px;
+        margin-left: 77px
+    }
+
+    .contact-form__fields {
+        padding: 0 95px
+    }
+
+    .contact-form__input {
+        margin: 0 0 14px
+    }
+}
+
+.steps {
+    background: url(https://rollerads.com/steps_background_mobile.5db0132f.svg) bottom no-repeat;
+    padding: 294px 0 50px;
+    margin-top: -174px
+}
+
+.steps__heading {
+    font-size: 26px;
+    line-height: 38px;
+    color: #fff
+}
+
+.steps__list {
+    margin-top: 60px;
+    padding-left: 0;
+    list-style: none
+}
+
+.step {
+    margin-bottom: 60px
+}
+
+.step:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 140px;
+    height: 140px
+}
+
+.step--account:before {
+    background: url(https://rollerads.com/step_account.8ac5497c.svg)
+}
+
+.step--tag:before {
+    background: url(https://rollerads.com/step_tag.3447a097.svg)
+}
+
+.step--result:before {
+    background: url(https://rollerads.com/step_result.9fc1c82e.svg)
+}
+
+.step__heading {
+    margin-top: 32px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #fff
+}
+
+.step__text {
+    text-align: center;
+    color: #fff
+}
+
+@media only screen and (min-width:768px) {
+    .steps {
+        margin-top: 0;
+        padding-top: 190px;
+        padding-bottom: 88px;
+        background: url(https://rollerads.com/steps_background_tablet.ce591f57.svg) bottom no-repeat
+    }
+
+    .steps__heading {
+        font-size: 30px;
+        line-height: 48px;
+        width: 453px;
+        margin: 0 auto
+    }
+
+    .steps__list {
+        width: 688px;
+        margin: 80px auto 0
+    }
+
+    .step {
+        margin-bottom: 55px
+    }
+
+    .step:before {
+        width: 120px;
+        height: 120px;
+        background-size: contain;
+        float: left;
+        margin-right: 32px
+    }
+
+    .step__heading {
+        font-size: 18px;
+        line-height: 32px;
+        text-align: left;
+        padding-top: 25px;
+        margin-bottom: 9px
+    }
+
+    .step__text {
+        margin-top: 9px;
+        text-align: left
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .steps {
+        background: url(https://rollerads.com/steps_background_desktop.1fcc8c25.svg) bottom no-repeat;
+        padding-top: 308px;
+        padding-bottom: 60px
+    }
+
+    .steps__heading {
+        font-size: 36px;
+        line-height: 56px;
+        width: 100%
+    }
+
+    .steps__list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 1100px
+    }
+
+    .step {
+        max-width: 350px
+    }
+
+    .step:before {
+        float: none;
+        width: 104px;
+        height: 104px;
+        margin: 0 auto
+    }
+
+    .step--account:hover:before {
+        background: url(https://rollerads.com/step_account_hovered.c31b05fc.svg)
+    }
+
+    .step--tag:hover:before {
+        background: url(https://rollerads.com/step_tag_hovered.5307e081.svg)
+    }
+
+    .step--result:hover:before {
+        background: url(https://rollerads.com/step_result_hovered.a6ab1343.svg)
+    }
+
+    .step__heading {
+        margin-top: 7px;
+        text-align: center
+    }
+
+    .step__text {
+        margin-top: 19px;
+        text-align: center;
+        width: 282px
+    }
+}
+
+.referral {
+    padding: 60px 0 33px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.referral__heading {
+    padding: 0 16px;
+    margin-bottom: 16px;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center
+}
+
+.referral__text {
+    padding: 0 16px;
+    margin-bottom: 32px
+}
+
+.referral__img {
+    margin-top: -180px;
+    margin-left: -100px
+}
+
+@media only screen and (min-width:768px) {
+    .referral {
+        padding-top: 95px
+    }
+
+    .referral__heading {
+        font-size: 30px;
+        line-height: 48px;
+        max-width: 384px;
+        margin-bottom: 10px
+    }
+
+    .referral__text {
+        margin-top: 10px;
+        text-align: center;
+        padding: 0 60px
+    }
+
+    .referral__img {
+        margin-top: -190px;
+        margin-left: 0
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .referral {
+        display: block;
+        padding-left: 70px;
+        padding-top: 131px;
+        padding-bottom: 115px;
+        position: relative;
+        max-width: 1210px;
+        margin: 0 auto
+    }
+
+    .referral__heading {
+        text-align: left;
+        font-size: 36px;
+        line-height: 56px;
+        max-width: 445px
+    }
+
+    .referral__text {
+        margin-top: 18px;
+        text-align: left;
+        width: 597px;
+        padding: 0 15px
+    }
+
+    .referral__img {
+        display: block;
+        position: absolute;
+        margin: 0 auto;
+        top: 47%;
+        left: 92%;
+        -webkit-transform: translate(-92%, -47%);
+        transform: translate(-92%, -47%)
+    }
+}
+
+.benefits-publishers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: -85px
+}
+
+.benefits-publishers__heading {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    width: 270px;
+    margin-bottom: 8px
+}
+
+.benefits-publishers__text {
+    margin-top: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    color: #8c8c8c;
+    width: 270px
+}
+
+.benefits-publishers__list {
+    margin-top: 32px;
+    padding-left: 0;
+    list-style: none
+}
+
+.pub-benefit {
+    margin-bottom: 58px
+}
+
+.pub-benefit:before {
+    content: "";
+    display: block;
+    width: 122px;
+    height: 81px;
+    margin: 0 auto
+}
+
+.pub-benefit--pricing:before {
+    background: url(https://rollerads.com/pub_benefit_pricing.ba7eccee.svg) no-repeat top
+}
+
+.pub-benefit--safe:before {
+    background: url(https://rollerads.com/pub_benefit_safe.a1b3f334.svg) no-repeat top
+}
+
+.pub-benefit--setup:before {
+    background: url(https://rollerads.com/pub_benefit_setup.255a7392.svg) no-repeat top
+}
+
+.pub-benefit--monetization:before {
+    background: url(https://rollerads.com/pub_benefit_monetization.9c6a1595.svg) no-repeat top
+}
+
+.pub-benefit--withdrawal:before {
+    background: url(https://rollerads.com/pub_benefit_withdrawal.75945397.svg) no-repeat top
+}
+
+.pub-benefit__heading {
+    margin-top: 34px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px
+}
+
+.pub-benefit__text {
+    padding: 0 24px;
+    text-align: center
+}
+
+@media only screen and (min-width:768px) {
+    .benefits-publishers {
+        margin-top: 35px;
+        padding-bottom: 25px
+    }
+
+    .benefits-publishers__heading {
+        font-size: 44px;
+        line-height: 57px;
+        width: 100%
+    }
+
+    .benefits-publishers__text {
+        font-size: 32px;
+        line-height: 56px;
+        width: 100%
+    }
+
+    .benefits-publishers__list {
+        width: 768px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: left;
+        -ms-flex-pack: left;
+        justify-content: left;
+        margin-top: 45px;
+        padding-left: 80px
+    }
+
+    .pub-benefit {
+        width: 344px;
+        margin-right: 8px;
+        margin-bottom: 42px
+    }
+
+    .pub-benefit:last-child {
+        -ms-flex-preferred-size: 700px;
+        flex-basis: 700px
+    }
+
+    .pub-benefit:before {
+        width: 95px;
+        height: 64px;
+        background-size: contain;
+        float: left;
+        margin-right: 14px
+    }
+
+    .pub-benefit__heading {
+        text-align: left;
+        font-size: 18px;
+        line-height: 26px;
+        margin-top: 19px
+    }
+
+    .pub-benefit__text {
+        margin-top: 42px;
+        padding-left: 0;
+        text-align: left
+    }
+}
+
+@media only screen and (min-width:1280px) {
+    .benefits-publishers {
+        margin-top: -25px;
+        padding-bottom: 10px
+    }
+
+    .benefits-publishers__heading {
+        font-size: 48px;
+        line-height: 57px;
+        margin-bottom: 12px
+    }
+
+    .benefits-publishers__text {
+        font-size: 36px;
+        line-height: 56px
+    }
+
+    .benefits-publishers__list {
+        width: 1200px;
+        padding: 0;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 25px
+    }
+
+    .pub-benefit {
+        margin-right: 0;
+        width: 380px;
+        margin-bottom: 43px;
+        -webkit-transition: .3s;
+        transition: .3s
+    }
+
+    .pub-benefit:hover {
+        -webkit-box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+        box-shadow: 2px 2px 24px rgba(11, 0, 77, .08);
+        border-radius: 6px 6px 8px 8px
+    }
+
+    .pub-benefit:last-child {
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+
+    .pub-benefit:before {
+        float: none;
+        margin: 20px auto 0
+    }
+
+    .pub-benefit__heading {
+        margin-top: 30px;
+        text-align: center
+    }
+
+    .pub-benefit__text {
+        text-align: center;
+        margin-top: 0;
+        padding: 0 16px
+    }
+}

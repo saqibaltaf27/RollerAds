@@ -126,7 +126,7 @@ const Auth = () => {
       if (response.data.success) {
         setMessage("Login successful! Redirecting...");
 
-        navigate("../pages/TestPage");  
+        navigate("../pages/Dashboard");  
       } else {
         setMessage("Invalid credentials. Please try again.");
       }

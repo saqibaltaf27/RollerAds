@@ -10,7 +10,8 @@ import Careers from './pages/Careers';
 //import Login from './pages/Login';
 //import SignUp from './pages/SignUp';
 import Auth from './pages/Auth';
-
+import Dashboard from './pages/Dashboard';
+//import NewCampaign from './pages/NewCampaign';
 function App() {
   return (
     <Router>
@@ -23,6 +24,7 @@ function App() {
         <Route path="/pages/Careers" element={<Careers />} />
         <Route path="/pages/auth" element={<Auth />} />
         <Route path="/pages/auth" element={<Auth />} />
+        <Route path="/pages/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );

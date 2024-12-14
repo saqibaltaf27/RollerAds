@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+.dashboard {
+    display:inline;
+    height: 100vh;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    transition: 0.3s;
+}
+
+.sidebar.open {
+    width: 250px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar ul li.active {
+    background-color: #575757;
+}
+
+.sidebar-toggle {
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 280px;
+    padding: 30px;
+    width: calc(100% - 260px);
+}
+
+/* Divider Styles */
+.divider {
+    background-color: #444;
+    height: 2px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.divider-text {
+    text-align:left;
+    font-size: 18px;
+    font-weight: bold;
+    margin: -20px 0 10px 0;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 20px;
+}
+
+/* Filter Bar */
+
+
+/* Table Styles */
+.campaign-table {
+    background-color: #1f1f1f;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+    overflow-x: auto;
+    box-sizing: border-box;
+    max-width: 100%; /* Prevent table from overflowing */
+}
+
+.campaign-table table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fixed layout to ensure columns do not overflow */
+}
+
+.campaign-table th,
+.campaign-table td {
+    padding: 10px 8px; /* Reduced padding */
+    text-align: center;
+    word-wrap: normal;
+    vertical-align: middle;
+    font-size: 12px; /* Reduced font size */
+    min-width: 100px; /* Ensure minimum column width */
+}
+
+.campaign-table th {
+    background-color: #333;
+}
+
+.campaign-table tr:nth-child(even) {
+    background-color: #272727;
+}
+
+.campaign-table tr:hover {
+    background-color: #444;
+}
+
+.campaign-table input[type="checkbox"] {
+    transform: scale(1.2);
+}
+
+/* Adjust input width to auto */
+.campaign-table td input[type="text"],
+.campaign-table td input[type="number"],
+.campaign-table td input[type="date"],
+.campaign-table td select {
+    padding: 5px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    width: 100%; /* Make inputs fill available space */
+    font-size: 12px; /* Reduced font size for inputs */
+    min-width: 50px; /* Ensure inputs are not too small */
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.pagination label {
+    align-self: center;
+    margin-right: 1000px;
+}
+
+.pagination select {
+    background-color: #222;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px; /* Reduced font size */
+    color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 0;
+    }
+
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .sidebar.open {
+        width: 200px;
+    }
+
+    .sidebar-toggle {
+        display: block;
+    }
+
+    .sidebar ul li {
+        font-size: 14px;
+    }
+
+    .filter-bar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .campaign-table table {
+        font-size: 10px; /* Further reduce font size on small screens */
+    }
+
+    .pagination {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pagination select {
+        margin-top: 10px;
+    }
+}
+
+.new-campaign-btn {
+    background-color: #000; 
+    color: white; 
+    padding: 10px 20px; 
+    margin: 10px 0; 
+    border: 2px solid white; 
+    cursor: pointer; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .new-campaign-btn:hover {
+    background-color: #555; 
+    border-color: #ddd; 
+  }
+  
